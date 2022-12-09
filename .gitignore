@@ -1,3 +1,9 @@
 .idea/*
 .DS_Store
 .vscode
+*pycache*
+*.out
+env/
+results/
+dataset/
+*.pt

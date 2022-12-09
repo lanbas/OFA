@@ -443,6 +443,10 @@ def load_model_ensemble_and_task(
                     f"Neither args nor cfg exist in state keys = {state.keys()}"
                 )
 
+            print("CONFIG IN CHECKPOINT SETUP", cfg.task)
+            print("TASK NAME PROBLEM", cfg.task['_name'])
+            cfg.task['_name'] = "caption"
+
             if task is None:
                 task = tasks.setup_task(cfg.task)
 

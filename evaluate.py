@@ -7,6 +7,7 @@
 import logging
 import os
 import sys
+import pdb
 
 import numpy as np
 import torch
@@ -40,6 +41,8 @@ def main(cfg: DictConfig, **kwargs):
 
     reset_logging()
     logger.info(cfg)
+    print("OUR TASK", cfg.task)
+    print("TASK NAME", cfg.task._name)
 
     assert (
             cfg.dataset.max_tokens is not None or cfg.dataset.batch_size is not None
@@ -64,6 +67,7 @@ def main(cfg: DictConfig, **kwargs):
 
     logger.info("loading model(s) from {}".format(cfg.common_eval.path))
     if kwargs["zero_shot"]:
+        print("ZERO SHOT")
         task = tasks.setup_task(cfg.task)
         models, saved_cfg = checkpoint_utils.load_model_ensemble(
             utils.split_paths(cfg.common_eval.path),
@@ -74,6 +78,7 @@ def main(cfg: DictConfig, **kwargs):
             num_shards=cfg.checkpoint.checkpoint_shard_count,
         )
     else:
+        print("NO ZERO SHOT")
         models, saved_cfg, task = checkpoint_utils.load_model_ensemble_and_task(
             utils.split_paths(cfg.common_eval.path),
             arg_overrides=overrides,
@@ -81,6 +86,8 @@ def main(cfg: DictConfig, **kwargs):
             strict=(cfg.checkpoint.checkpoint_shard_count == 1),
             num_shards=cfg.checkpoint.checkpoint_shard_count,
         )
+        print("TASK AFTER SETUP", task)
+        print("CFG AFTER SETUP", saved_cfg)
 
     # loading the dataset should happen after the checkpoint has been loaded so we can give it the saved task config
     task.load_dataset(cfg.dataset.gen_subset, task_cfg=saved_cfg.task)
