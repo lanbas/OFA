@@ -317,6 +317,7 @@ class FairseqTask(object):
         """
         from fairseq import models, quantization_utils
 
+        print("FAIRSEQ TASK BUILD MODEL CONFIG", cfg)
         model = models.build_model(cfg, self)
         model = quantization_utils.quantize_model_scalar(model, cfg)
         return model

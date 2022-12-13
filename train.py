@@ -49,6 +49,8 @@ from trainer import Trainer
 
 
 def main(cfg: FairseqConfig) -> None:
+    print("STARTING TRAIN")
+
     if isinstance(cfg, argparse.Namespace):
         cfg = convert_namespace_to_omegaconf(cfg)
 
@@ -85,10 +87,11 @@ def main(cfg: FairseqConfig) -> None:
                 "not installed: `pip install iopath`"
             )
             return
-
+    print("SETTING UP TASK")
     # Setup task, e.g., translation, language modeling, etc.
     task = tasks.setup_task(cfg.task)
-
+    print(type(task))
+    print("SET UP TASK")
     assert cfg.criterion, "Please specify criterion to train a model"
 
     # Build model and criterion
@@ -96,7 +99,9 @@ def main(cfg: FairseqConfig) -> None:
         with fsdp_enable_wrap(cfg.distributed_training):
             model = fsdp_wrap(task.build_model(cfg.model))
     else:
+        print("CONFIG MODEL", cfg.model)
         model = task.build_model(cfg.model)
+        print("MODEL", model) # Seems like a lot of layers are missing... layrs from all 6 encoder and decoder layers (each) -- attn and ff layers
     
     # bitfit
     if cfg.model.bitfit:
@@ -489,9 +494,9 @@ def validate(
 
         if hasattr(task, "post_validate"):
             task.post_validate(trainer.get_model(), stats, agg)
-
+        
         progress.print(stats, tag=subset, step=trainer.get_num_updates())
-
+        print(stats)
         valid_losses.append(stats[cfg.checkpoint.best_checkpoint_metric])
     return valid_losses
 

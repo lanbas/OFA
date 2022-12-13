@@ -89,6 +89,7 @@ class CaptionTask(OFATask):
         )
 
     def build_model(self, cfg):
+        print("RUNNING CAPTIONTASK build_model()")
         model = super().build_model(cfg)
         if self.cfg.eval_bleu or self.cfg.eval_cider:
             gen_args = json.loads(self.cfg.eval_args)

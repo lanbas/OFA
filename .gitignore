@@ -7,3 +7,4 @@ env/
 results/
 dataset/
 *.pt
+*glove.6B.100d.txt*

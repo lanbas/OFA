@@ -157,6 +157,8 @@ class OFATask(FairseqTask):
         return epoch_iter
 
     def build_model(self, cfg: FairseqDataclass):
+        print("OFATASK CFG BUILD MODEL()", cfg)
+        print(type(super()))
         model = super().build_model(cfg)
         if self.cfg.bpe == 'bert':
             bpe_dict = {

@@ -3,7 +3,7 @@
 # The port for communication. Note that if you want to run multiple tasks on the same machine,
 # you need to specify different port numbers.
 export MASTER_PORT=1061
-
+# echo "starting training"
 log_dir=./stage1_logs
 save_dir=./stage1_checkpoints
 mkdir -p $log_dir $save_dir
@@ -12,10 +12,10 @@ bpe_dir=../../utils/BPE
 user_dir=../../ofa_module
 
 data_dir=../../dataset/caption_data
-data=${data_dir}/caption_stage1_train.tsv,${data_dir}/caption_val.tsv
+data=${data_dir}/all_train.tsv,${data_dir}/all_val.tsv
 restore_file=../../checkpoints/ofa_base.pt
 selected_cols=0,4,2
-
+# echo "adding data stuff"
 task=caption
 arch=ofa_base
 criterion=adjust_label_smoothed_cross_entropy
@@ -48,7 +48,7 @@ for max_epoch in {5,}; do
       save_path=${save_dir}/${max_epoch}"_"${warmup_ratio}"_"${drop_worst_after}
       mkdir -p $save_path
 
-      CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m torch.distributed.launch --nproc_per_node=4 --master_port=${MASTER_PORT} ../../train.py \
+      CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 --master_port=${MASTER_PORT} ../../train.py \
           $data \
           --selected-cols=${selected_cols} \
           --bpe-dir=${bpe_dir} \
@@ -79,13 +79,13 @@ for max_epoch in {5,}; do
           --max-epoch=${max_epoch} --warmup-ratio=${warmup_ratio} \
           --log-format=simple --log-interval=10 \
           --fixed-validation-seed=7 \
-          --no-epoch-checkpoints --keep-best-checkpoints=1 \
+          --keep-best-checkpoints=5 \
           --save-interval=1 --validate-interval=1 \
-          --save-interval-updates=500 --validate-interval-updates=500 \
-          --eval-cider \
-          --eval-cider-cached-tokens=${eval_cider_cached} \
+          --save-interval-updates=500 \
+          --validate-interval-updates=500 \
           --eval-args='{"beam":5,"max_len_b":16,"no_repeat_ngram_size":3}' \
-          --best-checkpoint-metric=cider --maximize-best-checkpoint-metric \
+          --best-checkpoint-metric=loss \
+          --maximize-best-checkpoint-metric \
           --max-src-length=${max_src_length} \
           --max-tgt-length=${max_tgt_length} \
           --find-unused-parameters \
@@ -106,3 +106,9 @@ for max_epoch in {5,}; do
     done
   done
 done
+          # REMOVE 89?
+          # extend 86
+          # --maximize-best-checkpoint-metric \
+          # btwn 84/85
+          # --eval-cider \
+          # --eval-cider-cached-tokens=${eval_cider_cached} \

@@ -7,8 +7,8 @@ export MASTER_PORT=1091
 user_dir=../../ofa_module
 bpe_dir=../../utils/BPE
 
-data=../../dataset/caption_data/ae_all_img.tsv
-path=../../checkpoints/ofa_base.pt
+data=../../dataset/caption_data/all_val.tsv
+path=../../run_scripts/caption/stage1_checkpoints/5_0.06_6000/checkpoint1.pt
 result_path=../../results/caption
 selected_cols=1,4,2
 split='test'
