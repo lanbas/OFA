@@ -134,17 +134,17 @@ def main():
     results_dict = {}
     for pred in pred_list:
         pred_caption = pred['caption']
-        # pred_caption_proc = preprocess_caption(pred_caption)
+        pred_caption_proc = preprocess_caption(pred_caption)
         print(pred_caption)
         label = ae_gt[pred['image_id']]
         
-        if len(pred_caption) == 0: # If all stop words
-            pred_nv, closest2verb, closest2noun = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding)
+        if len(pred_caption_proc) == 0: # If all stop words
+            pred_nv, closest2verb, closest2noun = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding)
         else: 
-            pred_nv, closest2verb, closest2noun = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding)
+            pred_nv, closest2verb, closest2noun = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding)
 
         results_dict[pred['image_id']] = {"caption": pred_caption,
-                                          "caption_processed": pred_caption,
+                                          "caption_processed": pred_caption_proc,
                                           "label": label,
                                           "prediction": pred_nv,
                                           "closest2verb": closest2verb,
