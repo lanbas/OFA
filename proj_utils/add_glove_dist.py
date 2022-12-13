@@ -35,6 +35,10 @@ for item in json_object.items():
             dist += (label_embedding[ind2] - pred_embedding[ind2])**2
         glove_dist += math.sqrt(dist)
     d["glove_dist"] = glove_dist
+    if glove_dist <= 6:
+        d["correct"] = 1
+    else:
+        d["correct"] = 0
 
 
 #write to json file
