@@ -15,7 +15,7 @@ def gen_word2glove_dict(embedding_dim):
 
 def add_glove_dist():
     #read in json file
-    with open('pred_for_all_results.json', 'r') as openfile:
+    with open(f'./caption_results/test_predict_ckpt5_results.json', 'r') as openfile:
         json_object = json.load(openfile)
 
     word2embedding = gen_word2glove_dict(100)
@@ -52,7 +52,7 @@ def add_glove_dist():
     print("Proportion correct based on glove distance: ", num_correct_glove/total_parsed)
 
     #write to json file
-    with open('pfa_glove_dist_added.json', 'w') as outfile:
+    with open(f'./caption_results/pfa_ckpt5_glove_dist_added.json', 'w') as outfile:
         json.dump(json_object, outfile, indent=2)
 
 add_glove_dist()

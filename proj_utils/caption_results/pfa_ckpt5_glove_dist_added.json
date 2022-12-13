@@ -1,0 +1,6419 @@
+{
+  "chop+onion_db8d98b2-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "chop",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+onion_db8d98b3-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "chop",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+onion_db8d98bc-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "chop",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "ignite+wood_db8d98c5-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "burn wood",
+    "caption_processed": "burn wood",
+    "label": [
+      "ignite",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.277920484785315
+  },
+  "ignite+wood_db8d98c7-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "burn wood",
+    "caption_processed": "burn wood",
+    "label": [
+      "ignite",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.277920484785315
+  },
+  "saw+wood_db8d98d5-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "cut wood",
+    "caption_processed": "cut wood",
+    "label": [
+      "saw",
+      "wood"
+    ],
+    "prediction": [
+      "cut",
+      "wood"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 4.951542552472474
+  },
+  "saw+wood_db8d98d6-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "chop tree",
+    "caption_processed": "chop tree",
+    "label": [
+      "saw",
+      "wood"
+    ],
+    "prediction": [
+      "chop",
+      "tree"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 12.23831141668552
+  },
+  "saw+wood_db8d98d9-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "cut wood",
+    "caption_processed": "cut wood",
+    "label": [
+      "saw",
+      "wood"
+    ],
+    "prediction": [
+      "cut",
+      "wood"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 4.951542552472474
+  },
+  "break+bowl_db8d98e5-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "tear plate",
+    "caption_processed": "tear plate",
+    "label": [
+      "break",
+      "bowl"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "plate",
+    "correct": 0,
+    "glove_dist": 12.58730465464507
+  },
+  "label+bottle_db8d98f1-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "label bottle",
+    "caption_processed": "label bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "label",
+      "bottle"
+    ],
+    "closest2verb": "label",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "label+bottle_db8d98f6-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "label bottle",
+    "caption_processed": "label bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "label",
+      "bottle"
+    ],
+    "closest2verb": "label",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "label+bottle_db8d98f8-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "bottle",
+    "caption_processed": "bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "squeeze",
+      "bottle"
+    ],
+    "closest2verb": "bottle",
+    "closest2noun": "bottle",
+    "correct": 0,
+    "glove_dist": 6.293564311428969
+  },
+  "label+bottle_db8d98f9-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "fill bottle",
+    "caption_processed": "fill bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "squeeze",
+      "bottle"
+    ],
+    "closest2verb": "fill",
+    "closest2noun": "bottle",
+    "correct": 0,
+    "glove_dist": 6.293564311428969
+  },
+  "label+bottle_db8d98fa-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "label bottle",
+    "caption_processed": "label bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "label",
+      "bottle"
+    ],
+    "closest2verb": "label",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "label+bottle_db8d98fb-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "label bottle",
+    "caption_processed": "label bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "label",
+      "bottle"
+    ],
+    "closest2verb": "label",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "label+bottle_db8d98fe-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "open bottle",
+    "caption_processed": "open bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "open",
+      "bottle"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "bottle",
+    "correct": 0,
+    "glove_dist": 7.234837506904568
+  },
+  "label+bottle_db8d9900-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "label",
+    "caption_processed": "label",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "label",
+      "box"
+    ],
+    "closest2verb": "label",
+    "closest2noun": "label",
+    "correct": 1,
+    "glove_dist": 5.359885820533621
+  },
+  "label+bottle_db8d9901-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "squeeze bottle",
+    "caption_processed": "squeeze bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "squeeze",
+      "bottle"
+    ],
+    "closest2verb": "squeeze",
+    "closest2noun": "bottle",
+    "correct": 0,
+    "glove_dist": 6.293564311428969
+  },
+  "label+bottle_db8d9904-7290-11ed-86fb-7bc5558d1800_20": {
+    "caption": "squeeze bottle",
+    "caption_processed": "squeeze bottle",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "squeeze",
+      "bottle"
+    ],
+    "closest2verb": "squeeze",
+    "closest2noun": "bottle",
+    "correct": 0,
+    "glove_dist": 6.293564311428969
+  },
+  "trim+tree_db8d990b-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "trim tree",
+    "caption_processed": "trim tree",
+    "label": [
+      "trim",
+      "tree"
+    ],
+    "prediction": [
+      "trim",
+      "tree"
+    ],
+    "closest2verb": "trim",
+    "closest2noun": "tree",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "burn+tree_db8d9911-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "burn trees",
+    "caption_processed": "burn trees",
+    "label": [
+      "burn",
+      "tree"
+    ],
+    "prediction": [
+      "burn",
+      "tree"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "trees",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "burn+tree_db8d9912-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "burn trees",
+    "caption_processed": "burn trees",
+    "label": [
+      "burn",
+      "tree"
+    ],
+    "prediction": [
+      "burn",
+      "tree"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "trees",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+football_db8d991e-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "kick football",
+    "caption_processed": "kick football",
+    "label": [
+      "throw",
+      "football"
+    ],
+    "prediction": [
+      "kick",
+      "football"
+    ],
+    "closest2verb": "kick",
+    "closest2noun": "football",
+    "correct": 1,
+    "glove_dist": 5.077298643411743
+  },
+  "throw+football_db8d9921-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "throw football",
+    "caption_processed": "throw football",
+    "label": [
+      "throw",
+      "football"
+    ],
+    "prediction": [
+      "throw",
+      "football"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "football",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+football_db8d9926-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "throw football",
+    "caption_processed": "throw football",
+    "label": [
+      "throw",
+      "football"
+    ],
+    "prediction": [
+      "throw",
+      "football"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "football",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "split+tree_db8d9927-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "chop tree",
+    "caption_processed": "chop tree",
+    "label": [
+      "split",
+      "tree"
+    ],
+    "prediction": [
+      "chop",
+      "tree"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 6.9873908773253985
+  },
+  "split+tree_db8d992a-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "cut tree",
+    "caption_processed": "cut tree",
+    "label": [
+      "split",
+      "tree"
+    ],
+    "prediction": [
+      "cut",
+      "tree"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "tree",
+    "correct": 1,
+    "glove_dist": 5.489837720633775
+  },
+  "split+tree_db8d992d-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "chop tree",
+    "caption_processed": "chop tree",
+    "label": [
+      "split",
+      "tree"
+    ],
+    "prediction": [
+      "chop",
+      "tree"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 6.9873908773253985
+  },
+  "split+tree_db8d992e-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "chop tree",
+    "caption_processed": "chop tree",
+    "label": [
+      "split",
+      "tree"
+    ],
+    "prediction": [
+      "chop",
+      "tree"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 6.9873908773253985
+  },
+  "split+tree_db8d992f-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "chop tree",
+    "caption_processed": "chop tree",
+    "label": [
+      "split",
+      "tree"
+    ],
+    "prediction": [
+      "chop",
+      "tree"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 6.9873908773253985
+  },
+  "fry+egg_db8d9933-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_db8d9938-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_db8d993c-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_db8d993e-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_db8d9941-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_db8d9942-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_dca32c84-7290-11ed-86fb-7bc5558d1800_19": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_dca32c86-7290-11ed-86fb-7bc5558d1800_21": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+egg_dca32c87-7290-11ed-86fb-7bc5558d1800_22": {
+    "caption": "fry eggs",
+    "caption_processed": "fry eggs",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "eggs",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "tear+shirt_dca32c8e-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "stain shirt",
+    "caption_processed": "stain shirt",
+    "label": [
+      "tear",
+      "shirt"
+    ],
+    "prediction": [
+      "stain",
+      "shirt"
+    ],
+    "closest2verb": "stain",
+    "closest2noun": "shirt",
+    "correct": 0,
+    "glove_dist": 6.848241826005191
+  },
+  "tear+shirt_dca32c8f-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "tear shirt",
+    "caption_processed": "tear shirt",
+    "label": [
+      "tear",
+      "shirt"
+    ],
+    "prediction": [
+      "tear",
+      "shirt"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "shirt",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "soak+hair_dca32c94-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "wash hair",
+    "caption_processed": "wash hair",
+    "label": [
+      "soak",
+      "hair"
+    ],
+    "prediction": [
+      "soak",
+      "hair"
+    ],
+    "closest2verb": "wash",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "soak+hair_dca32c9b-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "soak",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.933009401552192
+  },
+  "open+umbrella_dca32ca4-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "open",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+umbrella_dca32ca9-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "open",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+umbrella_dca32cad-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "open",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+umbrella_dca32cb5-7290-11ed-86fb-7bc5558d1800_21": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "open",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+umbrella_dca32cb9-7290-11ed-86fb-7bc5558d1800_25": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "open",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crack+bottle_dca32cbe-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "break bottle",
+    "caption_processed": "break bottle",
+    "label": [
+      "crack",
+      "bottle"
+    ],
+    "prediction": [
+      "crack",
+      "bottle"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crack+bottle_dca32cc0-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "crack",
+      "bottle"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 0,
+    "glove_dist": 12.542579391685901
+  },
+  "crack+bottle_dca32cc5-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "crack",
+      "bottle"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 0,
+    "glove_dist": 10.06116366319382
+  },
+  "crack+bottle_dca32cc9-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "break bottle",
+    "caption_processed": "break bottle",
+    "label": [
+      "crack",
+      "bottle"
+    ],
+    "prediction": [
+      "crack",
+      "bottle"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crack+bottle_dca32cca-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "crack",
+      "bottle"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 0,
+    "glove_dist": 10.06116366319382
+  },
+  "coil+rope_dca32cd1-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "coil",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 0,
+    "glove_dist": 6.360318300002199
+  },
+  "coil+rope_dca32cd8-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "coil",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 0,
+    "glove_dist": 6.360318300002199
+  },
+  "coil+rope_dca32ce2-7290-11ed-86fb-7bc5558d1800_23": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "coil",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 0,
+    "glove_dist": 6.360318300002199
+  },
+  "scratch+knee_dca32ce5-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "stain leg",
+    "caption_processed": "stain leg",
+    "label": [
+      "scratch",
+      "knee"
+    ],
+    "prediction": [
+      "stain",
+      "paper"
+    ],
+    "closest2verb": "stain",
+    "closest2noun": "stain",
+    "correct": 0,
+    "glove_dist": 13.26005241087329
+  },
+  "scratch+knee_dca32ce7-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "scratch knee",
+    "caption_processed": "scratch knee",
+    "label": [
+      "scratch",
+      "knee"
+    ],
+    "prediction": [
+      "scratch",
+      "knee"
+    ],
+    "closest2verb": "scratch",
+    "closest2noun": "knee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "scratch+knee_dca32ce8-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "soak horse",
+    "caption_processed": "soak horse",
+    "label": [
+      "scratch",
+      "knee"
+    ],
+    "prediction": [
+      "soak",
+      "shirt"
+    ],
+    "closest2verb": "soak",
+    "closest2noun": "horse",
+    "correct": 0,
+    "glove_dist": 11.995985401618913
+  },
+  "scratch+knee_dca32ce9-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "scratch knee",
+    "caption_processed": "scratch knee",
+    "label": [
+      "scratch",
+      "knee"
+    ],
+    "prediction": [
+      "scratch",
+      "knee"
+    ],
+    "closest2verb": "scratch",
+    "closest2noun": "knee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "scratch+knee_dca32cea-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "burn knee",
+    "caption_processed": "burn knee",
+    "label": [
+      "scratch",
+      "knee"
+    ],
+    "prediction": [
+      "scratch",
+      "knee"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "knee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "scratch+knee_dca32cee-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "squeeze knee",
+    "caption_processed": "squeeze knee",
+    "label": [
+      "scratch",
+      "knee"
+    ],
+    "prediction": [
+      "scratch",
+      "knee"
+    ],
+    "closest2verb": "squeeze",
+    "closest2noun": "knee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "arrange+chairs_dca32cf3-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "arrange chairs",
+    "caption_processed": "arrange chairs",
+    "label": [
+      "arrange",
+      "chairs"
+    ],
+    "prediction": [
+      "arrange",
+      "chairs"
+    ],
+    "closest2verb": "arrange",
+    "closest2noun": "chairs",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "arrange+chairs_dca32cf4-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "arrange table",
+    "caption_processed": "arrange table",
+    "label": [
+      "arrange",
+      "chairs"
+    ],
+    "prediction": [
+      "arrange",
+      "chairs"
+    ],
+    "closest2verb": "arrange",
+    "closest2noun": "table",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+potato_dca32cff-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "cut potato",
+    "caption_processed": "cut potato",
+    "label": [
+      "peel",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "potato",
+    "correct": 0,
+    "glove_dist": 6.182429016852905
+  },
+  "peel+potato_dca32d03-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "cook potato",
+    "caption_processed": "cook potato",
+    "label": [
+      "peel",
+      "potato"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.18449309654348
+  },
+  "peel+potato_dca32d06-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "bake potato",
+    "caption_processed": "bake potato",
+    "label": [
+      "peel",
+      "potato"
+    ],
+    "prediction": [
+      "bake",
+      "potato"
+    ],
+    "closest2verb": "bake",
+    "closest2noun": "potato",
+    "correct": 0,
+    "glove_dist": 6.695035125579958
+  },
+  "slice+onion_dca32d07-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "slice",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 5.046304534399203
+  },
+  "slice+onion_dca32d09-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "slice onion",
+    "caption_processed": "slice onion",
+    "label": [
+      "slice",
+      "onion"
+    ],
+    "prediction": [
+      "slice",
+      "onion"
+    ],
+    "closest2verb": "slice",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "slice+onion_dca32d0b-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "cut onion",
+    "caption_processed": "cut onion",
+    "label": [
+      "slice",
+      "onion"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "slice+onion_dca32d0c-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "twist onion",
+    "caption_processed": "twist onion",
+    "label": [
+      "slice",
+      "onion"
+    ],
+    "prediction": [
+      "slice",
+      "onion"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "park+car_dca32d13-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "crash car",
+    "caption_processed": "crash car",
+    "label": [
+      "park",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "crash",
+    "closest2noun": "car",
+    "correct": 0,
+    "glove_dist": 7.2661222997273445
+  },
+  "park+car_dca32d18-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "crash car",
+    "caption_processed": "crash car",
+    "label": [
+      "park",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "crash",
+    "closest2noun": "car",
+    "correct": 0,
+    "glove_dist": 7.2661222997273445
+  },
+  "park+car_dca32d1a-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "wrap car",
+    "caption_processed": "wrap car",
+    "label": [
+      "park",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "car",
+    "closest2noun": "car",
+    "correct": 0,
+    "glove_dist": 7.2661222997273445
+  },
+  "peel+banana_dca32d27-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "peel banana",
+    "caption_processed": "peel banana",
+    "label": [
+      "peel",
+      "banana"
+    ],
+    "prediction": [
+      "peel",
+      "banana"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "banana",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+banana_dca32d28-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "peel banana",
+    "caption_processed": "peel banana",
+    "label": [
+      "peel",
+      "banana"
+    ],
+    "prediction": [
+      "peel",
+      "banana"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "banana",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+banana_dca32d2a-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "peel banana",
+    "caption_processed": "peel banana",
+    "label": [
+      "peel",
+      "banana"
+    ],
+    "prediction": [
+      "peel",
+      "banana"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "banana",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+banana_dca32d2c-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "peel banana",
+    "caption_processed": "peel banana",
+    "label": [
+      "peel",
+      "banana"
+    ],
+    "prediction": [
+      "peel",
+      "banana"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "banana",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+banana_dca32d2e-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "peel banana",
+    "caption_processed": "peel banana",
+    "label": [
+      "peel",
+      "banana"
+    ],
+    "prediction": [
+      "peel",
+      "banana"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "banana",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "stain+paper_dca32d33-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "stain",
+      "paper"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 0,
+    "glove_dist": 6.848241826005191
+  },
+  "stain+paper_dca32d39-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "stain book",
+    "caption_processed": "stain book",
+    "label": [
+      "stain",
+      "paper"
+    ],
+    "prediction": [
+      "stain",
+      "paper"
+    ],
+    "closest2verb": "stain",
+    "closest2noun": "book",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "stain+paper_dca32d3b-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "stain",
+      "paper"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 0,
+    "glove_dist": 6.848241826005191
+  },
+  "fry+meat_dca32d42-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "fry onion",
+    "caption_processed": "fry onion",
+    "label": [
+      "fry",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "onion"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "onion",
+    "correct": 0,
+    "glove_dist": 9.969488281722771
+  },
+  "fry+meat_dca32d44-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "fry meat",
+    "caption_processed": "fry meat",
+    "label": [
+      "fry",
+      "meat"
+    ],
+    "prediction": [
+      "fry",
+      "meat"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+apple_dca32d48-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "throw apple",
+    "caption_processed": "throw apple",
+    "label": [
+      "throw",
+      "apple"
+    ],
+    "prediction": [
+      "throw",
+      "apple"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+apple_dca32d4b-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "throw apple",
+    "caption_processed": "throw apple",
+    "label": [
+      "throw",
+      "apple"
+    ],
+    "prediction": [
+      "throw",
+      "apple"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+apple_dca32d4d-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "bite apple",
+    "caption_processed": "bite apple",
+    "label": [
+      "throw",
+      "apple"
+    ],
+    "prediction": [
+      "bite",
+      "apple"
+    ],
+    "closest2verb": "bite",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 5.809512032347021
+  },
+  "burn+wood_dca32d53-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "burn wood",
+    "caption_processed": "burn wood",
+    "label": [
+      "burn",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "burn+wood_dca32d54-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "burn wood",
+    "caption_processed": "burn wood",
+    "label": [
+      "burn",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "burn+wood_dca32d59-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "burn tree",
+    "caption_processed": "burn tree",
+    "label": [
+      "burn",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "tree"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "tree",
+    "correct": 1,
+    "glove_dist": 5.439467810443001
+  },
+  "bite+apple_dca32d5f-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "bite apple",
+    "caption_processed": "bite apple",
+    "label": [
+      "bite",
+      "apple"
+    ],
+    "prediction": [
+      "bite",
+      "apple"
+    ],
+    "closest2verb": "bite",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "bite+apple_ddec9203-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "bite",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 5.718014659007597
+  },
+  "throw+baseball_ddec920f-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "throw baseball",
+    "caption_processed": "throw baseball",
+    "label": [
+      "throw",
+      "baseball"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "baseball",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "beat+eggs_ddec9212-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "beat eggs",
+    "caption_processed": "beat eggs",
+    "label": [
+      "beat",
+      "eggs"
+    ],
+    "prediction": [
+      "beat",
+      "eggs"
+    ],
+    "closest2verb": "beat",
+    "closest2noun": "eggs",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+potato_ddec9220-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "peel potato",
+    "caption_processed": "peel potato",
+    "label": [
+      "cut",
+      "potato"
+    ],
+    "prediction": [
+      "peel",
+      "potato"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "potato",
+    "correct": 0,
+    "glove_dist": 6.182429016852905
+  },
+  "cut+potato_ddec9224-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "cut potato",
+    "caption_processed": "cut potato",
+    "label": [
+      "cut",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+potato_ddec9226-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "cook potato",
+    "caption_processed": "cook potato",
+    "label": [
+      "cut",
+      "potato"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.913856338996417
+  },
+  "cut+potato_ddec922d-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "cut carrot",
+    "caption_processed": "cut carrot",
+    "label": [
+      "cut",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "carrot",
+    "correct": 1,
+    "glove_dist": 5.2102273904038245
+  },
+  "cut+potato_ddec9231-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "cut potato",
+    "caption_processed": "cut potato",
+    "label": [
+      "cut",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+orange_ddec923f-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "peel orange",
+    "caption_processed": "peel orange",
+    "label": [
+      "peel",
+      "orange"
+    ],
+    "prediction": [
+      "peel",
+      "orange"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "orange",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "saw+tree_ddec924a-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "cut tree",
+    "caption_processed": "cut tree",
+    "label": [
+      "saw",
+      "tree"
+    ],
+    "prediction": [
+      "cut",
+      "tree"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "tree",
+    "correct": 1,
+    "glove_dist": 4.951542552472474
+  },
+  "saw+tree_ddec924b-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "cut tree",
+    "caption_processed": "cut tree",
+    "label": [
+      "saw",
+      "tree"
+    ],
+    "prediction": [
+      "cut",
+      "tree"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "tree",
+    "correct": 1,
+    "glove_dist": 4.951542552472474
+  },
+  "ignite+paper_ddec9255-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "burn paper",
+    "caption_processed": "burn paper",
+    "label": [
+      "ignite",
+      "paper"
+    ],
+    "prediction": [
+      "burn",
+      "paper"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 5.277920484785315
+  },
+  "smash+window_ddec925f-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "smash",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 0,
+    "glove_dist": 9.79283405072578
+  },
+  "smash+window_ddec9262-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "smash",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 5.112944530457297
+  },
+  "smash+window_ddec9263-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "close window",
+    "caption_processed": "close window",
+    "label": [
+      "smash",
+      "window"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 6.352651915744912
+  },
+  "smash+window_ddec9265-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "smash",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 0,
+    "glove_dist": 9.79283405072578
+  },
+  "fry+potato_ddec9266-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "fry potato",
+    "caption_processed": "fry potato",
+    "label": [
+      "fry",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+potato_ddec9267-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "fry potato",
+    "caption_processed": "fry potato",
+    "label": [
+      "fry",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+potato_ddec926d-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "fry potato",
+    "caption_processed": "fry potato",
+    "label": [
+      "fry",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fry+potato_ddec926e-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "fry potato",
+    "caption_processed": "fry potato",
+    "label": [
+      "fry",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "squeeze+bottle_ddec9288-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "break bottle",
+    "caption_processed": "break bottle",
+    "label": [
+      "squeeze",
+      "bottle"
+    ],
+    "prediction": [
+      "crack",
+      "bottle"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 5.038754287701914
+  },
+  "squeeze+bottle_ddec928b-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "break bottle",
+    "caption_processed": "break bottle",
+    "label": [
+      "squeeze",
+      "bottle"
+    ],
+    "prediction": [
+      "crack",
+      "bottle"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 5.038754287701914
+  },
+  "carry+bag_ddec9290-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "carry bag",
+    "caption_processed": "carry bag",
+    "label": [
+      "carry",
+      "bag"
+    ],
+    "prediction": [
+      "carry",
+      "bag"
+    ],
+    "closest2verb": "carry",
+    "closest2noun": "bag",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "carry+bag_ddec9291-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "carry bag",
+    "caption_processed": "carry bag",
+    "label": [
+      "carry",
+      "bag"
+    ],
+    "prediction": [
+      "carry",
+      "bag"
+    ],
+    "closest2verb": "carry",
+    "closest2noun": "bag",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "rip+paper_ddec929b-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "rip",
+      "paper"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 5.91453253244791
+  },
+  "rip+paper_ddec929d-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "rip",
+      "paper"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 5.91453253244791
+  },
+  "rip+paper_ddec92a7-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "rip",
+      "paper"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 5.91453253244791
+  },
+  "rip+paper_ddec92aa-7290-11ed-86fb-7bc5558d1800_18": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "rip",
+      "paper"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 5.91453253244791
+  },
+  "pile+books_ddec92ad-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "pile books",
+    "caption_processed": "pile books",
+    "label": [
+      "pile",
+      "books"
+    ],
+    "prediction": [
+      "pile",
+      "books"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "books",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "pile+books_defd50bb-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "pile books",
+    "caption_processed": "pile books",
+    "label": [
+      "pile",
+      "books"
+    ],
+    "prediction": [
+      "pile",
+      "books"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "books",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "pile+books_defd50c4-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "pile books",
+    "caption_processed": "pile books",
+    "label": [
+      "pile",
+      "books"
+    ],
+    "prediction": [
+      "pile",
+      "books"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "books",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "pile+books_defd50c5-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "pile books",
+    "caption_processed": "pile books",
+    "label": [
+      "pile",
+      "books"
+    ],
+    "prediction": [
+      "pile",
+      "books"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "books",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "scratch+car_defd50df-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "crash car",
+    "caption_processed": "crash car",
+    "label": [
+      "scratch",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "crash",
+    "closest2noun": "car",
+    "correct": 0,
+    "glove_dist": 6.716380201471303
+  },
+  "scratch+car_defd50e4-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "scratch car",
+    "caption_processed": "scratch car",
+    "label": [
+      "scratch",
+      "car"
+    ],
+    "prediction": [
+      "scratch",
+      "car"
+    ],
+    "closest2verb": "scratch",
+    "closest2noun": "car",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "scratch+car_defd50e5-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "scratch car",
+    "caption_processed": "scratch car",
+    "label": [
+      "scratch",
+      "car"
+    ],
+    "prediction": [
+      "scratch",
+      "car"
+    ],
+    "closest2verb": "scratch",
+    "closest2noun": "car",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "wrap+book_defd50ec-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "wrap present",
+    "caption_processed": "wrap present",
+    "label": [
+      "wrap",
+      "book"
+    ],
+    "prediction": [
+      "wrap",
+      "book"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "present",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "wrap+book_defd50ee-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "wrap box",
+    "caption_processed": "wrap box",
+    "label": [
+      "wrap",
+      "book"
+    ],
+    "prediction": [
+      "wrap",
+      "box"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "box",
+    "correct": 1,
+    "glove_dist": 5.58301573492781
+  },
+  "open+drawer_defd50f6-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "open drawer",
+    "caption_processed": "open drawer",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "drawer"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+drawer_defd50fa-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "open drawer",
+    "caption_processed": "open drawer",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "drawer"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+drawer_defd50fe-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 0,
+    "glove_dist": 7.128854066743529
+  },
+  "open+drawer_defd5101-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "close drawer",
+    "caption_processed": "close drawer",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "close",
+      "drawer"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 5.064055771125522
+  },
+  "open+drawer_defd5102-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "open drawer",
+    "caption_processed": "open drawer",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "drawer"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+drawer_defd5105-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "open drawer",
+    "caption_processed": "open drawer",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "drawer"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+drawer_defd5109-7290-11ed-86fb-7bc5558d1800_20": {
+    "caption": "open box",
+    "caption_processed": "open box",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "box"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "box",
+    "correct": 1,
+    "glove_dist": 5.955410786739723
+  },
+  "open+drawer_defd510a-7290-11ed-86fb-7bc5558d1800_21": {
+    "caption": "open drawer",
+    "caption_processed": "open drawer",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "drawer"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+drawer_defd510c-7290-11ed-86fb-7bc5558d1800_23": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 0,
+    "glove_dist": 7.128854066743529
+  },
+  "close+book_defd5117-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "read book",
+    "caption_processed": "read book",
+    "label": [
+      "close",
+      "book"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "read",
+    "closest2noun": "book",
+    "correct": 1,
+    "glove_dist": 5.2734900072191495
+  },
+  "close+book_defd511b-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "open book",
+    "caption_processed": "open book",
+    "label": [
+      "close",
+      "book"
+    ],
+    "prediction": [
+      "close",
+      "book"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "book",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "burst+balloon_defd5126-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "break rope",
+    "caption_processed": "break rope",
+    "label": [
+      "burst",
+      "balloon"
+    ],
+    "prediction": [
+      "knot",
+      "rope"
+    ],
+    "closest2verb": "rope",
+    "closest2noun": "rope",
+    "correct": 0,
+    "glove_dist": 12.473431871547161
+  },
+  "squeeze+orange_defd512b-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "peel orange",
+    "caption_processed": "peel orange",
+    "label": [
+      "squeeze",
+      "orange"
+    ],
+    "prediction": [
+      "peel",
+      "orange"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "orange",
+    "correct": 0,
+    "glove_dist": 6.011017914432175
+  },
+  "squeeze+orange_defd512d-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "squeeze orange",
+    "caption_processed": "squeeze orange",
+    "label": [
+      "squeeze",
+      "orange"
+    ],
+    "prediction": [
+      "squeeze",
+      "orange"
+    ],
+    "closest2verb": "squeeze",
+    "closest2noun": "orange",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "close+cabinet_defd513b-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "close cabinet",
+    "caption_processed": "close cabinet",
+    "label": [
+      "close",
+      "cabinet"
+    ],
+    "prediction": [
+      "close",
+      "cabinet"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "close+cabinet_defd513f-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "close",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 5.064055771125522
+  },
+  "close+cabinet_defd5140-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "close",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 5.064055771125522
+  },
+  "close+cabinet_defd5144-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "close cabinet",
+    "caption_processed": "close cabinet",
+    "label": [
+      "close",
+      "cabinet"
+    ],
+    "prediction": [
+      "close",
+      "cabinet"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "close+cabinet_defd5149-7290-11ed-86fb-7bc5558d1800_21": {
+    "caption": "close drawer",
+    "caption_processed": "close drawer",
+    "label": [
+      "close",
+      "cabinet"
+    ],
+    "prediction": [
+      "close",
+      "drawer"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "drawer",
+    "correct": 0,
+    "glove_dist": 7.128854066743529
+  },
+  "break+window_defd514d-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "break",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+window_defd5152-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "crack window",
+    "caption_processed": "crack window",
+    "label": [
+      "break",
+      "window"
+    ],
+    "prediction": [
+      "crack",
+      "window"
+    ],
+    "closest2verb": "crack",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "break+window_defd515a-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "break",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+window_defd515c-7290-11ed-86fb-7bc5558d1800_18": {
+    "caption": "throw baseball",
+    "caption_processed": "throw baseball",
+    "label": [
+      "break",
+      "window"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "baseball",
+    "correct": 0,
+    "glove_dist": 11.834174293477103
+  },
+  "break+window_defd515d-7290-11ed-86fb-7bc5558d1800_19": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "break",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+window_defd515f-7290-11ed-86fb-7bc5558d1800_21": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "break",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 1,
+    "glove_dist": 4.679889520268483
+  },
+  "kick+football_defd5164-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "kick football",
+    "caption_processed": "kick football",
+    "label": [
+      "kick",
+      "football"
+    ],
+    "prediction": [
+      "kick",
+      "football"
+    ],
+    "closest2verb": "kick",
+    "closest2noun": "football",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "kick+football_defd5167-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "soccer ball",
+    "caption_processed": "soccer ball",
+    "label": [
+      "kick",
+      "football"
+    ],
+    "prediction": [
+      "kick",
+      "football"
+    ],
+    "closest2verb": "ball",
+    "closest2noun": "soccer",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "kick+football_defd5169-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "kick soccer",
+    "caption_processed": "kick soccer",
+    "label": [
+      "kick",
+      "football"
+    ],
+    "prediction": [
+      "kick",
+      "football"
+    ],
+    "closest2verb": "kick",
+    "closest2noun": "soccer",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "soak+shirt_defd516c-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "soak swimsuit",
+    "caption_processed": "soak swimsuit",
+    "label": [
+      "soak",
+      "shirt"
+    ],
+    "prediction": [
+      "soak",
+      "shirt"
+    ],
+    "closest2verb": "soak",
+    "closest2noun": "swimsuit",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "soak+shirt_defd516d-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "soak shirt",
+    "caption_processed": "soak shirt",
+    "label": [
+      "soak",
+      "shirt"
+    ],
+    "prediction": [
+      "soak",
+      "shirt"
+    ],
+    "closest2verb": "soak",
+    "closest2noun": "shirt",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "soak+shirt_defd516f-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "roll paper",
+    "caption_processed": "roll paper",
+    "label": [
+      "soak",
+      "shirt"
+    ],
+    "prediction": [
+      "roll",
+      "paper"
+    ],
+    "closest2verb": "roll",
+    "closest2noun": "paper",
+    "correct": 0,
+    "glove_dist": 12.187735240617855
+  },
+  "fasten+door_defd5176-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "fasten",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 6.0661151272235365
+  },
+  "fasten+door_defd5179-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "close door",
+    "caption_processed": "close door",
+    "label": [
+      "fasten",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 7.147821154111848
+  },
+  "fasten+door_defd517a-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "fasten",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 6.0661151272235365
+  },
+  "fasten+door_defd517c-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "fasten",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 6.0661151272235365
+  },
+  "fasten+door_defd517d-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "fasten",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 6.0661151272235365
+  },
+  "kick+door_defd5181-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "smash door",
+    "caption_processed": "smash door",
+    "label": [
+      "kick",
+      "door"
+    ],
+    "prediction": [
+      "smash",
+      "door"
+    ],
+    "closest2verb": "smash",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.769145056941262
+  },
+  "kick+door_defd5186-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "smash door",
+    "caption_processed": "smash door",
+    "label": [
+      "kick",
+      "door"
+    ],
+    "prediction": [
+      "smash",
+      "door"
+    ],
+    "closest2verb": "smash",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.769145056941262
+  },
+  "open+cabinet_defd518b-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+cabinet_defd518d-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+cabinet_defd518e-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+cabinet_defd518f-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+cabinet_defd5190-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+cabinet_defd51a1-7290-11ed-86fb-7bc5558d1800_22": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "cabinet"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+wood_defd51a9-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "chop tree",
+    "caption_processed": "chop tree",
+    "label": [
+      "cut",
+      "wood"
+    ],
+    "prediction": [
+      "chop",
+      "tree"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 11.236202721240161
+  },
+  "cut+wood_defd51aa-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "chop wood",
+    "caption_processed": "chop wood",
+    "label": [
+      "cut",
+      "wood"
+    ],
+    "prediction": [
+      "chop",
+      "wood"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "cut+wood_defd51ad-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "chop wood",
+    "caption_processed": "chop wood",
+    "label": [
+      "cut",
+      "wood"
+    ],
+    "prediction": [
+      "chop",
+      "wood"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "open+window_defd51be-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "open window",
+    "caption_processed": "open window",
+    "label": [
+      "open",
+      "window"
+    ],
+    "prediction": [
+      "open",
+      "window"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+window_defd51bf-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "open window",
+    "caption_processed": "open window",
+    "label": [
+      "open",
+      "window"
+    ],
+    "prediction": [
+      "open",
+      "window"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "hang+shirt_defd51ca-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "hang shirt",
+    "caption_processed": "hang shirt",
+    "label": [
+      "hang",
+      "shirt"
+    ],
+    "prediction": [
+      "hang",
+      "shirt"
+    ],
+    "closest2verb": "hang",
+    "closest2noun": "shirt",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "hang+shirt_e0300462-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "hang shirt",
+    "caption_processed": "hang shirt",
+    "label": [
+      "hang",
+      "shirt"
+    ],
+    "prediction": [
+      "hang",
+      "shirt"
+    ],
+    "closest2verb": "hang",
+    "closest2noun": "shirt",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "grate+carrot_e0300468-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "cut carrot",
+    "caption_processed": "cut carrot",
+    "label": [
+      "grate",
+      "carrot"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "carrot",
+    "correct": 0,
+    "glove_dist": 11.93080118547621
+  },
+  "grate+carrot_e0300469-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "grate carrot",
+    "caption_processed": "grate carrot",
+    "label": [
+      "grate",
+      "carrot"
+    ],
+    "prediction": [
+      "grate",
+      "carrot"
+    ],
+    "closest2verb": "grate",
+    "closest2noun": "carrot",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "grate+carrot_e030046a-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "cut carrot",
+    "caption_processed": "cut carrot",
+    "label": [
+      "grate",
+      "carrot"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "carrot",
+    "correct": 0,
+    "glove_dist": 11.93080118547621
+  },
+  "stir+coffee_e0300477-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "stir coffee",
+    "caption_processed": "stir coffee",
+    "label": [
+      "stir",
+      "coffee"
+    ],
+    "prediction": [
+      "stir",
+      "coffee"
+    ],
+    "closest2verb": "stir",
+    "closest2noun": "coffee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "stir+coffee_e030047f-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "stir coffee",
+    "caption_processed": "stir coffee",
+    "label": [
+      "stir",
+      "coffee"
+    ],
+    "prediction": [
+      "stir",
+      "coffee"
+    ],
+    "closest2verb": "stir",
+    "closest2noun": "coffee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crash+car_e0300482-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "crash car",
+    "caption_processed": "crash car",
+    "label": [
+      "crash",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "crash",
+    "closest2noun": "car",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crop+hair_e0300499-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "fade hair",
+    "caption_processed": "fade hair",
+    "label": [
+      "crop",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "fade",
+    "closest2noun": "hair",
+    "correct": 0,
+    "glove_dist": 7.3004209702796174
+  },
+  "crop+hair_e030049e-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "trim hair",
+    "caption_processed": "trim hair",
+    "label": [
+      "crop",
+      "hair"
+    ],
+    "prediction": [
+      "trim",
+      "hair"
+    ],
+    "closest2verb": "trim",
+    "closest2noun": "hair",
+    "correct": 0,
+    "glove_dist": 7.528689970479678
+  },
+  "cut+meat_e03004a1-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "chop meat",
+    "caption_processed": "chop meat",
+    "label": [
+      "cut",
+      "meat"
+    ],
+    "prediction": [
+      "chop",
+      "meat"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "cut+meat_e03004a6-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "cut meat",
+    "caption_processed": "cut meat",
+    "label": [
+      "cut",
+      "meat"
+    ],
+    "prediction": [
+      "cut",
+      "meat"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+meat_e03004ab-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "cut meat",
+    "caption_processed": "cut meat",
+    "label": [
+      "cut",
+      "meat"
+    ],
+    "prediction": [
+      "cut",
+      "meat"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+meat_e03004b0-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "chop meat",
+    "caption_processed": "chop meat",
+    "label": [
+      "cut",
+      "meat"
+    ],
+    "prediction": [
+      "chop",
+      "meat"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "cut+meat_e03004b1-7290-11ed-86fb-7bc5558d1800_18": {
+    "caption": "wrap meat",
+    "caption_processed": "wrap meat",
+    "label": [
+      "cut",
+      "meat"
+    ],
+    "prediction": [
+      "slice",
+      "meat"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "cut+meat_e03004b6-7290-11ed-86fb-7bc5558d1800_23": {
+    "caption": "cut meat",
+    "caption_processed": "cut meat",
+    "label": [
+      "cut",
+      "meat"
+    ],
+    "prediction": [
+      "cut",
+      "meat"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+tree_e03004c0-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "cut tree",
+    "caption_processed": "cut tree",
+    "label": [
+      "chop",
+      "tree"
+    ],
+    "prediction": [
+      "cut",
+      "tree"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "tree",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "burst+door_e03004cb-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "close window",
+    "caption_processed": "close window",
+    "label": [
+      "burst",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 9.376695711064265
+  },
+  "burst+door_e03004d0-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "burst",
+      "door"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 8.267539378799794
+  },
+  "burn+paper_e03004d8-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "burn paper",
+    "caption_processed": "burn paper",
+    "label": [
+      "burn",
+      "paper"
+    ],
+    "prediction": [
+      "burn",
+      "paper"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "burn+paper_e03004db-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "burn paper",
+    "caption_processed": "burn paper",
+    "label": [
+      "burn",
+      "paper"
+    ],
+    "prediction": [
+      "burn",
+      "paper"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "burn+paper_e03004dd-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "burn paper",
+    "caption_processed": "burn paper",
+    "label": [
+      "burn",
+      "paper"
+    ],
+    "prediction": [
+      "burn",
+      "paper"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "lock+door_e03004df-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "close book",
+    "caption_processed": "close book",
+    "label": [
+      "lock",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "book"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "book",
+    "correct": 0,
+    "glove_dist": 12.290147643347353
+  },
+  "lock+door_e03004e3-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "lock",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "lock+door_e03004e5-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "lock",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "lock+door_e03004e7-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "lock",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+frisbee_e03004e9-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "throw frisbee",
+    "caption_processed": "throw frisbee",
+    "label": [
+      "throw",
+      "frisbee"
+    ],
+    "prediction": [
+      "throw",
+      "frisbee"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "frisbee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+frisbee_e03004ed-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "throw frisbee",
+    "caption_processed": "throw frisbee",
+    "label": [
+      "throw",
+      "frisbee"
+    ],
+    "prediction": [
+      "throw",
+      "frisbee"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "frisbee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "throw+frisbee_e03004f2-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "throw frisbee",
+    "caption_processed": "throw frisbee",
+    "label": [
+      "throw",
+      "frisbee"
+    ],
+    "prediction": [
+      "throw",
+      "frisbee"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "frisbee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+carrot_e03004f4-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "chop carrot",
+    "caption_processed": "chop carrot",
+    "label": [
+      "chop",
+      "carrot"
+    ],
+    "prediction": [
+      "chop",
+      "carrot"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "carrot",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+carrot_e03004f6-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "chop carrot",
+    "caption_processed": "chop carrot",
+    "label": [
+      "chop",
+      "carrot"
+    ],
+    "prediction": [
+      "chop",
+      "carrot"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "carrot",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+carrot_e03004f7-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "chop carrot",
+    "caption_processed": "chop carrot",
+    "label": [
+      "chop",
+      "carrot"
+    ],
+    "prediction": [
+      "chop",
+      "carrot"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "carrot",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+carrot_e0300508-7290-11ed-86fb-7bc5558d1800_20": {
+    "caption": "cut carrot",
+    "caption_processed": "cut carrot",
+    "label": [
+      "chop",
+      "carrot"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "carrot",
+    "correct": 0,
+    "glove_dist": 10.540981782439548
+  },
+  "chop+carrot_e030050a-7290-11ed-86fb-7bc5558d1800_22": {
+    "caption": "chop carrot",
+    "caption_processed": "chop carrot",
+    "label": [
+      "chop",
+      "carrot"
+    ],
+    "prediction": [
+      "chop",
+      "carrot"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "carrot",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "chop+carrot_e030050b-7290-11ed-86fb-7bc5558d1800_23": {
+    "caption": "cut carrot",
+    "caption_processed": "cut carrot",
+    "label": [
+      "chop",
+      "carrot"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "carrot",
+    "correct": 0,
+    "glove_dist": 10.540981782439548
+  },
+  "cook+meat_e030050c-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "fry meat",
+    "caption_processed": "fry meat",
+    "label": [
+      "cook",
+      "meat"
+    ],
+    "prediction": [
+      "fry",
+      "meat"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 3.2461000641847484
+  },
+  "cook+meat_e030050d-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "roast turkey",
+    "caption_processed": "roast turkey",
+    "label": [
+      "cook",
+      "meat"
+    ],
+    "prediction": [
+      "fry",
+      "meat"
+    ],
+    "closest2verb": "roast",
+    "closest2noun": "roast",
+    "correct": 1,
+    "glove_dist": 3.2461000641847484
+  },
+  "cook+meat_e0300519-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "cook meat",
+    "caption_processed": "cook meat",
+    "label": [
+      "cook",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "meat"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "boil+potato_e030051c-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "cut potato",
+    "caption_processed": "cut potato",
+    "label": [
+      "boil",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "potato",
+    "correct": 0,
+    "glove_dist": 7.195494052824874
+  },
+  "boil+potato_e0300520-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "boil potato",
+    "caption_processed": "boil potato",
+    "label": [
+      "boil",
+      "potato"
+    ],
+    "prediction": [
+      "boil",
+      "potato"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "boil+potato_e0300525-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "boil potato",
+    "caption_processed": "boil potato",
+    "label": [
+      "boil",
+      "potato"
+    ],
+    "prediction": [
+      "boil",
+      "potato"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "boil+potato_e0300526-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "cook potato",
+    "caption_processed": "cook potato",
+    "label": [
+      "boil",
+      "potato"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.180499175867281
+  },
+  "cook+onion_e0300528-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "cook potato",
+    "caption_processed": "cook potato",
+    "label": [
+      "cook",
+      "onion"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.2102273904038245
+  },
+  "cook+onion_e030052c-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "fry potato",
+    "caption_processed": "fry potato",
+    "label": [
+      "cook",
+      "onion"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "potato",
+    "correct": 0,
+    "glove_dist": 8.456327454588573
+  },
+  "grate+potato_e030053c-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "grate",
+      "potato"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 0,
+    "glove_dist": 10.439619620410024
+  },
+  "grate+potato_e030053f-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "grate potato",
+    "caption_processed": "grate potato",
+    "label": [
+      "grate",
+      "potato"
+    ],
+    "prediction": [
+      "grate",
+      "potato"
+    ],
+    "closest2verb": "grate",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "grate+potato_e0300540-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "grate potato",
+    "caption_processed": "grate potato",
+    "label": [
+      "grate",
+      "potato"
+    ],
+    "prediction": [
+      "grate",
+      "potato"
+    ],
+    "closest2verb": "grate",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "bend+knee_e0300546-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "bend knee",
+    "caption_processed": "bend knee",
+    "label": [
+      "bend",
+      "knee"
+    ],
+    "prediction": [
+      "bend",
+      "knee"
+    ],
+    "closest2verb": "bend",
+    "closest2noun": "knee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "bend+knee_e030054d-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "bend knee",
+    "caption_processed": "bend knee",
+    "label": [
+      "bend",
+      "knee"
+    ],
+    "prediction": [
+      "bend",
+      "knee"
+    ],
+    "closest2verb": "bend",
+    "closest2noun": "knee",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "close+door_e030055a-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "close",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.064055771125522
+  },
+  "close+door_e030055d-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "close door",
+    "caption_processed": "close door",
+    "label": [
+      "close",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "close+door_e0300560-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "close door",
+    "caption_processed": "close door",
+    "label": [
+      "close",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "close+door_e0300565-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "close door",
+    "caption_processed": "close door",
+    "label": [
+      "close",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "lock+drawer_e15c4475-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "close cabinet",
+    "caption_processed": "close cabinet",
+    "label": [
+      "lock",
+      "drawer"
+    ],
+    "prediction": [
+      "close",
+      "cabinet"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "cabinet",
+    "correct": 0,
+    "glove_dist": 13.013910770656075
+  },
+  "lock+drawer_e15c4478-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "close drawer",
+    "caption_processed": "close drawer",
+    "label": [
+      "lock",
+      "drawer"
+    ],
+    "prediction": [
+      "close",
+      "drawer"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 5.8850567039125465
+  },
+  "knot+rope_e15c447c-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "knot rope",
+    "caption_processed": "knot rope",
+    "label": [
+      "knot",
+      "rope"
+    ],
+    "prediction": [
+      "knot",
+      "rope"
+    ],
+    "closest2verb": "knot",
+    "closest2noun": "rope",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "knot+rope_e15c4485-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "knot",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 1,
+    "glove_dist": 5.682304593333019
+  },
+  "knot+rope_e15c4487-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "knot",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 1,
+    "glove_dist": 5.682304593333019
+  },
+  "twist+hair_e15c4495-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "curl hair",
+    "caption_processed": "curl hair",
+    "label": [
+      "twist",
+      "hair"
+    ],
+    "prediction": [
+      "shave",
+      "hair"
+    ],
+    "closest2verb": "curl",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.514237527347842
+  },
+  "twist+hair_e15c4497-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "twist",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "twist+hair_e15c449b-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "twist",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "twist+hair_e15c44a2-7290-11ed-86fb-7bc5558d1800_20": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "twist",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "twist+hair_e15c44ab-7290-11ed-86fb-7bc5558d1800_29": {
+    "caption": "curl hair",
+    "caption_processed": "curl hair",
+    "label": [
+      "twist",
+      "hair"
+    ],
+    "prediction": [
+      "shave",
+      "hair"
+    ],
+    "closest2verb": "curl",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.514237527347842
+  },
+  "chop+meat_e15c44ac-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "cook meat",
+    "caption_processed": "cook meat",
+    "label": [
+      "chop",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "meat"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.890001874312045
+  },
+  "chop+meat_e15c44ad-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "cook meat",
+    "caption_processed": "cook meat",
+    "label": [
+      "chop",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "meat"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.890001874312045
+  },
+  "chop+meat_e15c44af-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "cook meat",
+    "caption_processed": "cook meat",
+    "label": [
+      "chop",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "meat"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.890001874312045
+  },
+  "carry+umbrella_e15c44ba-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "carry",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 0,
+    "glove_dist": 6.101188883540984
+  },
+  "carry+umbrella_e15c44bb-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "carry umbrella",
+    "caption_processed": "carry umbrella",
+    "label": [
+      "carry",
+      "umbrella"
+    ],
+    "prediction": [
+      "carry",
+      "umbrella"
+    ],
+    "closest2verb": "carry",
+    "closest2noun": "umbrella",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "carry+umbrella_e15c44bc-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "carry",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 0,
+    "glove_dist": 6.101188883540984
+  },
+  "block+door_e15c44d5-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "block",
+      "door"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.476119254299223
+  },
+  "block+door_e15c44da-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "close window",
+    "caption_processed": "close window",
+    "label": [
+      "block",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 8.430346227511722
+  },
+  "tie+shoe_e15c44e2-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "tie shoe",
+    "caption_processed": "tie shoe",
+    "label": [
+      "tie",
+      "shoe"
+    ],
+    "prediction": [
+      "tie",
+      "shoe"
+    ],
+    "closest2verb": "tie",
+    "closest2noun": "shoe",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "tie+shoe_e15c44e4-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "wrap shoe",
+    "caption_processed": "wrap shoe",
+    "label": [
+      "tie",
+      "shoe"
+    ],
+    "prediction": [
+      "tie",
+      "shoe"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "shoe",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "tie+shoe_e15c44e5-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "tie shoe",
+    "caption_processed": "tie shoe",
+    "label": [
+      "tie",
+      "shoe"
+    ],
+    "prediction": [
+      "tie",
+      "shoe"
+    ],
+    "closest2verb": "tie",
+    "closest2noun": "shoe",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "tear+book_e15c44ec-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "tear",
+      "book"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 4.952187812074374
+  },
+  "tear+book_e15c44ef-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "open book",
+    "caption_processed": "open book",
+    "label": [
+      "tear",
+      "book"
+    ],
+    "prediction": [
+      "close",
+      "book"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "book",
+    "correct": 0,
+    "glove_dist": 6.886980532087435
+  },
+  "tear+book_e15c44f4-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "rip book",
+    "caption_processed": "rip book",
+    "label": [
+      "tear",
+      "book"
+    ],
+    "prediction": [
+      "rip",
+      "paper"
+    ],
+    "closest2verb": "rip",
+    "closest2noun": "book",
+    "correct": 0,
+    "glove_dist": 10.866720344522285
+  },
+  "mix+eggs_e15c44f9-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "beat soup",
+    "caption_processed": "beat soup",
+    "label": [
+      "mix",
+      "eggs"
+    ],
+    "prediction": [
+      "stir",
+      "soup"
+    ],
+    "closest2verb": "soup",
+    "closest2noun": "soup",
+    "correct": 0,
+    "glove_dist": 10.481426174243158
+  },
+  "mix+eggs_e15c44fa-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "beat eggs",
+    "caption_processed": "beat eggs",
+    "label": [
+      "mix",
+      "eggs"
+    ],
+    "prediction": [
+      "beat",
+      "eggs"
+    ],
+    "closest2verb": "beat",
+    "closest2noun": "eggs",
+    "correct": 0,
+    "glove_dist": 6.6052804789671775
+  },
+  "mix+eggs_e15c44fd-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "beat eggs",
+    "caption_processed": "beat eggs",
+    "label": [
+      "mix",
+      "eggs"
+    ],
+    "prediction": [
+      "beat",
+      "eggs"
+    ],
+    "closest2verb": "beat",
+    "closest2noun": "eggs",
+    "correct": 0,
+    "glove_dist": 6.6052804789671775
+  },
+  "mix+eggs_e15c4500-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "fry potato",
+    "caption_processed": "fry potato",
+    "label": [
+      "mix",
+      "eggs"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "potato",
+    "correct": 0,
+    "glove_dist": 10.919505172821934
+  },
+  "mix+eggs_e15c4502-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "beat eggs",
+    "caption_processed": "beat eggs",
+    "label": [
+      "mix",
+      "eggs"
+    ],
+    "prediction": [
+      "beat",
+      "eggs"
+    ],
+    "closest2verb": "beat",
+    "closest2noun": "eggs",
+    "correct": 0,
+    "glove_dist": 6.6052804789671775
+  },
+  "crack+egg_e15c4506-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "crack egg",
+    "caption_processed": "crack egg",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "crack",
+      "egg"
+    ],
+    "closest2verb": "crack",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crack+egg_e15c4508-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "crack+egg_e15c450d-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "crack+egg_e15c4511-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "boil egg",
+    "caption_processed": "boil egg",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 0,
+    "glove_dist": 6.841601354358218
+  },
+  "crack+egg_e15c4514-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "crack+egg_e15c4515-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "crack egg",
+    "caption_processed": "crack egg",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "crack",
+      "egg"
+    ],
+    "closest2verb": "crack",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crack+egg_e15c4517-7290-11ed-86fb-7bc5558d1800_19": {
+    "caption": "boil egg",
+    "caption_processed": "boil egg",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 0,
+    "glove_dist": 6.841601354358218
+  },
+  "break+cup_e15c451a-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "break cup",
+    "caption_processed": "break cup",
+    "label": [
+      "break",
+      "cup"
+    ],
+    "prediction": [
+      "break",
+      "cup"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "cup",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+cup_e15c4524-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "break cup",
+    "caption_processed": "break cup",
+    "label": [
+      "break",
+      "cup"
+    ],
+    "prediction": [
+      "break",
+      "cup"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "cup",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "pitch+baseball_e15c4525-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "throw baseball",
+    "caption_processed": "throw baseball",
+    "label": [
+      "pitch",
+      "baseball"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "baseball",
+    "correct": 1,
+    "glove_dist": 4.417776316419814
+  },
+  "pitch+baseball_e15c4526-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "hit ball",
+    "caption_processed": "hit ball",
+    "label": [
+      "pitch",
+      "baseball"
+    ],
+    "prediction": [
+      "kick",
+      "door"
+    ],
+    "closest2verb": "ball",
+    "closest2noun": "ball",
+    "correct": 0,
+    "glove_dist": 12.663993756406265
+  },
+  "pitch+baseball_e15c4527-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "throw baseball",
+    "caption_processed": "throw baseball",
+    "label": [
+      "pitch",
+      "baseball"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "baseball",
+    "correct": 1,
+    "glove_dist": 4.417776316419814
+  },
+  "pitch+baseball_e15c4528-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "throw baseball",
+    "caption_processed": "throw baseball",
+    "label": [
+      "pitch",
+      "baseball"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "baseball",
+    "correct": 1,
+    "glove_dist": 4.417776316419814
+  },
+  "pitch+baseball_e15c452a-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "throw baseball",
+    "caption_processed": "throw baseball",
+    "label": [
+      "pitch",
+      "baseball"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "baseball",
+    "correct": 1,
+    "glove_dist": 4.417776316419814
+  },
+  "pitch+baseball_e15c4530-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "throw baseball",
+    "caption_processed": "throw baseball",
+    "label": [
+      "pitch",
+      "baseball"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "baseball",
+    "correct": 1,
+    "glove_dist": 4.417776316419814
+  },
+  "burn+book_e15c4536-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "burn paper",
+    "caption_processed": "burn paper",
+    "label": [
+      "burn",
+      "book"
+    ],
+    "prediction": [
+      "burn",
+      "paper"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 4.952187812074374
+  },
+  "burn+book_e15c4538-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "burn book",
+    "caption_processed": "burn book",
+    "label": [
+      "burn",
+      "book"
+    ],
+    "prediction": [
+      "burn",
+      "book"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "book",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+door_e15c453f-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "open",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+door_e15c454b-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "open",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+door_e15c454c-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "open",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+door_e15c454e-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "open cabinet",
+    "caption_processed": "open cabinet",
+    "label": [
+      "open",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "cabinet"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "cabinet",
+    "correct": 0,
+    "glove_dist": 6.2403233551843655
+  },
+  "open+door_e15c4557-7290-11ed-86fb-7bc5558d1800_24": {
+    "caption": "close door",
+    "caption_processed": "close door",
+    "label": [
+      "open",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.064055771125522
+  },
+  "cook+potato_e15c4559-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "bake potato",
+    "caption_processed": "bake potato",
+    "label": [
+      "cook",
+      "potato"
+    ],
+    "prediction": [
+      "bake",
+      "potato"
+    ],
+    "closest2verb": "bake",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.754016063457908
+  },
+  "cook+potato_e15c455d-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "cook",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 0,
+    "glove_dist": 11.894499608670142
+  },
+  "twist+rope_e15c4571-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "twist",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "twist+rope_e15c4572-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "twist",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "twist+rope_e15c4574-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "twist drum",
+    "caption_processed": "twist drum",
+    "label": [
+      "twist",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "twist",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "slice+potato_e28c9841-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "cut potato",
+    "caption_processed": "cut potato",
+    "label": [
+      "slice",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "break+egg_e28c984a-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "break",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+egg_e28c984b-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "break",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+egg_e28c9853-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "break",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+egg_e28c9859-7290-11ed-86fb-7bc5558d1800_18": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "break",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+egg_e28c985e-7290-11ed-86fb-7bc5558d1800_23": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "break",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+apple_e28c986b-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "crack egg",
+    "caption_processed": "crack egg",
+    "label": [
+      "peel",
+      "apple"
+    ],
+    "prediction": [
+      "crack",
+      "egg"
+    ],
+    "closest2verb": "crack",
+    "closest2noun": "egg",
+    "correct": 0,
+    "glove_dist": 13.64673651948356
+  },
+  "peel+apple_e28c986c-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "peel",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 0,
+    "glove_dist": 6.182429016852905
+  },
+  "stir+soup_e28c9871-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "stir soup",
+    "caption_processed": "stir soup",
+    "label": [
+      "stir",
+      "soup"
+    ],
+    "prediction": [
+      "stir",
+      "soup"
+    ],
+    "closest2verb": "stir",
+    "closest2noun": "soup",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "stir+soup_e28c9874-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "cook soup",
+    "caption_processed": "cook soup",
+    "label": [
+      "stir",
+      "soup"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "soup",
+    "correct": 0,
+    "glove_dist": 9.697306241101138
+  },
+  "close+drawer_e28c987b-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "open drawer",
+    "caption_processed": "open drawer",
+    "label": [
+      "close",
+      "drawer"
+    ],
+    "prediction": [
+      "open",
+      "drawer"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "drawer",
+    "correct": 1,
+    "glove_dist": 5.064055771125522
+  },
+  "shut+window_e28c9894-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "close window",
+    "caption_processed": "close window",
+    "label": [
+      "shut",
+      "window"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 5.207984022639868
+  },
+  "trim+hair_e28c989f-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "fade hair",
+    "caption_processed": "fade hair",
+    "label": [
+      "trim",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "fade",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.952789342407836
+  },
+  "bake+potato_e28c98a9-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "cook potato",
+    "caption_processed": "cook potato",
+    "label": [
+      "bake",
+      "potato"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.754016063457908
+  },
+  "bake+potato_e28c98b0-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "fry potato",
+    "caption_processed": "fry potato",
+    "label": [
+      "bake",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.578794112324547
+  },
+  "bake+potato_e28c98b1-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "bake",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 0,
+    "glove_dist": 13.137818316975642
+  },
+  "bake+potato_e28c98b2-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "cook potato",
+    "caption_processed": "cook potato",
+    "label": [
+      "bake",
+      "potato"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.754016063457908
+  },
+  "cut+onion_e28c98bb-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "cut+onion_e28c98c1-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "cut onion",
+    "caption_processed": "cut onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+onion_e28c98c5-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "cut+onion_e28c98c9-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "twist onion",
+    "caption_processed": "twist onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "slice",
+      "onion"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "cut+onion_e28c98ca-7290-11ed-86fb-7bc5558d1800_18": {
+    "caption": "chop onion",
+    "caption_processed": "chop onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 5.796734910797161
+  },
+  "cut+onion_e28c98cb-7290-11ed-86fb-7bc5558d1800_19": {
+    "caption": "slice onion",
+    "caption_processed": "slice onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "slice",
+      "onion"
+    ],
+    "closest2verb": "slice",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "cut+onion_e28c98d3-7290-11ed-86fb-7bc5558d1800_27": {
+    "caption": "cut onion",
+    "caption_processed": "cut onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+onion_e28c98d5-7290-11ed-86fb-7bc5558d1800_29": {
+    "caption": "cut onion",
+    "caption_processed": "cut onion",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "onion",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "tear+paper_e28c98e1-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "tear paper",
+    "caption_processed": "tear paper",
+    "label": [
+      "tear",
+      "paper"
+    ],
+    "prediction": [
+      "tear",
+      "paper"
+    ],
+    "closest2verb": "tear",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "boil+egg_e28c98f0-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "chop egg",
+    "caption_processed": "chop egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "egg",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 5.265899012237287
+  },
+  "boil+egg_e28c98f2-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "boil egg",
+    "caption_processed": "boil egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "boil+egg_e28c98f3-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 5.265899012237287
+  },
+  "boil+egg_e3bdcc79-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "cook egg",
+    "caption_processed": "cook egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "cook",
+      "egg"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 5.180499175867281
+  },
+  "boil+egg_e3bdcc7b-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "fry egg",
+    "caption_processed": "fry egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "fry",
+      "egg"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 5.265899012237287
+  },
+  "boil+egg_e3bdcc7d-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "cook egg",
+    "caption_processed": "cook egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "cook",
+      "egg"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 5.180499175867281
+  },
+  "boil+egg_e3bdcc7f-7290-11ed-86fb-7bc5558d1800_18": {
+    "caption": "boil egg",
+    "caption_processed": "boil egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "boil+egg_e3bdcc80-7290-11ed-86fb-7bc5558d1800_19": {
+    "caption": "boil egg",
+    "caption_processed": "boil egg",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "spill+coffee_e3bdcc89-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "spill bottle",
+    "caption_processed": "spill bottle",
+    "label": [
+      "spill",
+      "coffee"
+    ],
+    "prediction": [
+      "spill",
+      "coffee"
+    ],
+    "closest2verb": "spill",
+    "closest2noun": "bottle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "block+window_e3bdcc90-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "block",
+      "window"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 8.87255643464332
+  },
+  "block+window_e3bdcc94-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "block",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 4.946460427586716
+  },
+  "bind+hair_e3bdcc9c-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "bind",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.78139979452146
+  },
+  "bind+hair_e3bdcc9d-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "twist rope",
+    "caption_processed": "twist rope",
+    "label": [
+      "bind",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "rope",
+    "correct": 0,
+    "glove_dist": 12.332305661885307
+  },
+  "bind+hair_e3bdcca0-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "bind",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.78139979452146
+  },
+  "bind+hair_e3bdcca5-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "bind",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.78139979452146
+  },
+  "bind+hair_e3bdcca7-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "twist hair",
+    "caption_processed": "twist hair",
+    "label": [
+      "bind",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "hair",
+    "correct": 1,
+    "glove_dist": 5.78139979452146
+  },
+  "pile+boxes_e3bdccb9-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "pile boxes",
+    "caption_processed": "pile boxes",
+    "label": [
+      "pile",
+      "boxes"
+    ],
+    "prediction": [
+      "pile",
+      "boxes"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "boxes",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "pile+boxes_e3bdccbc-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "open box",
+    "caption_processed": "open box",
+    "label": [
+      "pile",
+      "boxes"
+    ],
+    "prediction": [
+      "open",
+      "box"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "box",
+    "correct": 0,
+    "glove_dist": 10.845666612513448
+  },
+  "crack+window_e3bdccc2-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "crack",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "crack+window_e3bdccc3-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "crack window",
+    "caption_processed": "crack window",
+    "label": [
+      "crack",
+      "window"
+    ],
+    "prediction": [
+      "crack",
+      "window"
+    ],
+    "closest2verb": "crack",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "crack+window_e3bdccc7-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "crack",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "crack+window_e3bdccc8-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "crack",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "arrange+flowers_e3bdcce4-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "arrange flowers",
+    "caption_processed": "arrange flowers",
+    "label": [
+      "arrange",
+      "flowers"
+    ],
+    "prediction": [
+      "arrange",
+      "flowers"
+    ],
+    "closest2verb": "arrange",
+    "closest2noun": "flowers",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "arrange+flowers_e3bdccec-7290-11ed-86fb-7bc5558d1800_23": {
+    "caption": "arrange flowers",
+    "caption_processed": "arrange flowers",
+    "label": [
+      "arrange",
+      "flowers"
+    ],
+    "prediction": [
+      "arrange",
+      "flowers"
+    ],
+    "closest2verb": "arrange",
+    "closest2noun": "flowers",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "arrange+flowers_e3bdccee-7290-11ed-86fb-7bc5558d1800_25": {
+    "caption": "arrange flowers",
+    "caption_processed": "arrange flowers",
+    "label": [
+      "arrange",
+      "flowers"
+    ],
+    "prediction": [
+      "arrange",
+      "flowers"
+    ],
+    "closest2verb": "arrange",
+    "closest2noun": "flowers",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "arrange+flowers_e3bdccf2-7290-11ed-86fb-7bc5558d1800_29": {
+    "caption": "arrange flowers",
+    "caption_processed": "arrange flowers",
+    "label": [
+      "arrange",
+      "flowers"
+    ],
+    "prediction": [
+      "arrange",
+      "flowers"
+    ],
+    "closest2verb": "arrange",
+    "closest2noun": "flowers",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+glass_e3bdccfa-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "break",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+glass_e3bdccfb-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "break",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+glass_e3bdccfe-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "crack window",
+    "caption_processed": "crack window",
+    "label": [
+      "break",
+      "glass"
+    ],
+    "prediction": [
+      "crack",
+      "window"
+    ],
+    "closest2verb": "crack",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 9.404432363505524
+  },
+  "break+glass_e3bdcd00-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "break",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "break+glass_e3bdcd04-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "break",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cook+egg_e3bdcd06-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "beat egg",
+    "caption_processed": "beat egg",
+    "label": [
+      "cook",
+      "egg"
+    ],
+    "prediction": [
+      "beat",
+      "eggs"
+    ],
+    "closest2verb": "beat",
+    "closest2noun": "egg",
+    "correct": 0,
+    "glove_dist": 10.153451852820973
+  },
+  "cook+egg_e3bdcd0d-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "cook egg",
+    "caption_processed": "cook egg",
+    "label": [
+      "cook",
+      "egg"
+    ],
+    "prediction": [
+      "cook",
+      "egg"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cook+egg_e3bdcd0f-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "cook egg",
+    "caption_processed": "cook egg",
+    "label": [
+      "cook",
+      "egg"
+    ],
+    "prediction": [
+      "cook",
+      "egg"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "egg",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fold+paper_e3bdcd19-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "fold paper",
+    "caption_processed": "fold paper",
+    "label": [
+      "fold",
+      "paper"
+    ],
+    "prediction": [
+      "fold",
+      "paper"
+    ],
+    "closest2verb": "fold",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "fold+paper_e3bdcd1d-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "fold paper",
+    "caption_processed": "fold paper",
+    "label": [
+      "fold",
+      "paper"
+    ],
+    "prediction": [
+      "fold",
+      "paper"
+    ],
+    "closest2verb": "fold",
+    "closest2noun": "paper",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "roll+paper_e3bdcd1f-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "break cigar",
+    "caption_processed": "break cigar",
+    "label": [
+      "roll",
+      "paper"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "break",
+    "correct": 0,
+    "glove_dist": 11.028552390547533
+  },
+  "cut+apple_e3bdcd3e-7290-11ed-86fb-7bc5558d1800_20": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "cut",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "cut+apple_e3bdcd42-7290-11ed-86fb-7bc5558d1800_24": {
+    "caption": "cut potato",
+    "caption_processed": "cut potato",
+    "label": [
+      "cut",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "potato",
+    "correct": 1,
+    "glove_dist": 5.980643269673726
+  },
+  "smash+door_e3bdcd44-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "smash",
+      "door"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 8.419280335070187
+  },
+  "smash+door_e3bdcd48-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "smash",
+      "door"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 8.419280335070187
+  },
+  "smash+door_e3bdcd50-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "smash",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 6.531329368538367
+  },
+  "smash+door_e3bdcd51-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "close door",
+    "caption_processed": "close door",
+    "label": [
+      "smash",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 6.352651915744912
+  },
+  "pile+wood_e3bdcd5d-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "cut wood",
+    "caption_processed": "cut wood",
+    "label": [
+      "pile",
+      "wood"
+    ],
+    "prediction": [
+      "cut",
+      "wood"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.909070254430453
+  },
+  "pile+wood_e3bdcd62-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "cut wood",
+    "caption_processed": "cut wood",
+    "label": [
+      "pile",
+      "wood"
+    ],
+    "prediction": [
+      "cut",
+      "wood"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.909070254430453
+  },
+  "pile+wood_e3bdcd63-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "burn wood",
+    "caption_processed": "burn wood",
+    "label": [
+      "pile",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.24503064624598
+  },
+  "lock+cabinet_e3bdcd67-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "lock drawer",
+    "caption_processed": "lock drawer",
+    "label": [
+      "lock",
+      "cabinet"
+    ],
+    "prediction": [
+      "lock",
+      "drawer"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "drawer",
+    "correct": 0,
+    "glove_dist": 7.128854066743529
+  },
+  "crack+glass_e3bdcd80-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "crack",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "crack+glass_e3bdcd83-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "break window",
+    "caption_processed": "break window",
+    "label": [
+      "crack",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 0,
+    "glove_dist": 9.404432363505524
+  },
+  "crack+glass_e3bdcd84-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "break glass",
+    "caption_processed": "break glass",
+    "label": [
+      "crack",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "glass",
+    "correct": 1,
+    "glove_dist": 4.7245428432370415
+  },
+  "slice+apple_e3bdcd8e-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "bite apple",
+    "caption_processed": "bite apple",
+    "label": [
+      "slice",
+      "apple"
+    ],
+    "prediction": [
+      "bite",
+      "apple"
+    ],
+    "closest2verb": "bite",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 5.011713258527181
+  },
+  "slice+apple_e3bdcd94-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "slice",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "slice+apple_e3bdcd96-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "slice",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "slice+apple_e3bdcd98-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "cut apple",
+    "caption_processed": "cut apple",
+    "label": [
+      "slice",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "grind+meat_e3bdcd99-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "fry meat",
+    "caption_processed": "fry meat",
+    "label": [
+      "grind",
+      "meat"
+    ],
+    "prediction": [
+      "fry",
+      "meat"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.503021838121703
+  },
+  "carry+book_e3bdcda6-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "hold book",
+    "caption_processed": "hold book",
+    "label": [
+      "carry",
+      "book"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "hold",
+    "closest2noun": "book",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "carry+book_e3bdcda8-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "hold book",
+    "caption_processed": "hold book",
+    "label": [
+      "carry",
+      "book"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "hold",
+    "closest2noun": "book",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "carry+book_e3bdcda9-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "carry book",
+    "caption_processed": "carry book",
+    "label": [
+      "carry",
+      "book"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "carry",
+    "closest2noun": "book",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "ride+bicycle_e4f5ee08-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "ride bicycle",
+    "caption_processed": "ride bicycle",
+    "label": [
+      "ride",
+      "bicycle"
+    ],
+    "prediction": [
+      "ride",
+      "bicycle"
+    ],
+    "closest2verb": "ride",
+    "closest2noun": "bicycle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "ride+bicycle_e4f5ee14-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "ride bicycle",
+    "caption_processed": "ride bicycle",
+    "label": [
+      "ride",
+      "bicycle"
+    ],
+    "prediction": [
+      "ride",
+      "bicycle"
+    ],
+    "closest2verb": "ride",
+    "closest2noun": "bicycle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "ride+bicycle_e4f5ee15-7290-11ed-86fb-7bc5558d1800_15": {
+    "caption": "ride bicycle",
+    "caption_processed": "ride bicycle",
+    "label": [
+      "ride",
+      "bicycle"
+    ],
+    "prediction": [
+      "ride",
+      "bicycle"
+    ],
+    "closest2verb": "ride",
+    "closest2noun": "bicycle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "ride+bicycle_e4f5ee16-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "ride bicycle",
+    "caption_processed": "ride bicycle",
+    "label": [
+      "ride",
+      "bicycle"
+    ],
+    "prediction": [
+      "ride",
+      "bicycle"
+    ],
+    "closest2verb": "ride",
+    "closest2noun": "bicycle",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "bend+tree_e4f5ee20-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "twist tree",
+    "caption_processed": "twist tree",
+    "label": [
+      "bend",
+      "tree"
+    ],
+    "prediction": [
+      "split",
+      "tree"
+    ],
+    "closest2verb": "twist",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 6.00968221062312
+  },
+  "bend+tree_e4f5ee24-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "tree",
+    "caption_processed": "tree",
+    "label": [
+      "bend",
+      "tree"
+    ],
+    "prediction": [
+      "saw",
+      "tree"
+    ],
+    "closest2verb": "tree",
+    "closest2noun": "tree",
+    "correct": 1,
+    "glove_dist": 5.979557445539367
+  },
+  "skin+knee_e4f5ee2b-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "scratch hair",
+    "caption_processed": "scratch hair",
+    "label": [
+      "skin",
+      "knee"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "scratch",
+    "closest2noun": "hair",
+    "correct": 0,
+    "glove_dist": 13.533765284770645
+  },
+  "skin+knee_e4f5ee33-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "scratch skin",
+    "caption_processed": "scratch skin",
+    "label": [
+      "skin",
+      "knee"
+    ],
+    "prediction": [
+      "scratch",
+      "knee"
+    ],
+    "closest2verb": "scratch",
+    "closest2noun": "scratch",
+    "correct": 1,
+    "glove_dist": 5.852299178096579
+  },
+  "slice+meat_e4f5ee40-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "cut meat",
+    "caption_processed": "cut meat",
+    "label": [
+      "slice",
+      "meat"
+    ],
+    "prediction": [
+      "cut",
+      "meat"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.185907184219616
+  },
+  "slice+meat_e4f5ee42-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "chop meat",
+    "caption_processed": "chop meat",
+    "label": [
+      "slice",
+      "meat"
+    ],
+    "prediction": [
+      "chop",
+      "meat"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "meat",
+    "correct": 1,
+    "glove_dist": 5.046304534399203
+  },
+  "peel+carrot_e4f5ee48-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "peel carrot",
+    "caption_processed": "peel carrot",
+    "label": [
+      "peel",
+      "carrot"
+    ],
+    "prediction": [
+      "peel",
+      "carrot"
+    ],
+    "closest2verb": "peel",
+    "closest2noun": "carrot",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "peel+carrot_e4f5ee49-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "cut carrot",
+    "caption_processed": "cut carrot",
+    "label": [
+      "peel",
+      "carrot"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "carrot",
+    "correct": 0,
+    "glove_dist": 10.926675888495293
+  },
+  "chop+wood_e4f5ee4d-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "burn wood",
+    "caption_processed": "burn wood",
+    "label": [
+      "chop",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "wood",
+    "correct": 1,
+    "glove_dist": 5.581371981246304
+  },
+  "roll+umbrella_e4f5ee58-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "roll",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 0,
+    "glove_dist": 6.154024332599222
+  },
+  "roll+umbrella_e4f5ee5f-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "open umbrella",
+    "caption_processed": "open umbrella",
+    "label": [
+      "roll",
+      "umbrella"
+    ],
+    "prediction": [
+      "open",
+      "umbrella"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "umbrella",
+    "correct": 0,
+    "glove_dist": 6.154024332599222
+  },
+  "insert+key_e4f5ee61-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "lock door",
+    "caption_processed": "lock door",
+    "label": [
+      "insert",
+      "key"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "door",
+    "correct": 0,
+    "glove_dist": 11.563231036905202
+  },
+  "insert+key_e4f5ee63-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "break egg",
+    "caption_processed": "break egg",
+    "label": [
+      "insert",
+      "key"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 0,
+    "glove_dist": 13.357282602103638
+  },
+  "shut+door_e4f5ee6c-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "shut",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.407096943789085
+  },
+  "shut+door_e4f5ee73-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "shut",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.407096943789085
+  },
+  "shut+door_e4f5ee77-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "close door",
+    "caption_processed": "close door",
+    "label": [
+      "shut",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.207984022639868
+  },
+  "shut+door_e4f5ee7d-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "open door",
+    "caption_processed": "open door",
+    "label": [
+      "shut",
+      "door"
+    ],
+    "prediction": [
+      "open",
+      "door"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "door",
+    "correct": 1,
+    "glove_dist": 5.407096943789085
+  },
+  "wrap+box_e4f5ee86-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "wrap box",
+    "caption_processed": "wrap box",
+    "label": [
+      "wrap",
+      "box"
+    ],
+    "prediction": [
+      "wrap",
+      "box"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "box",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "wrap+box_e4f5ee88-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "wrap box",
+    "caption_processed": "wrap box",
+    "label": [
+      "wrap",
+      "box"
+    ],
+    "prediction": [
+      "wrap",
+      "box"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "box",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "wrap+box_e4f5ee89-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "wrap box",
+    "caption_processed": "wrap box",
+    "label": [
+      "wrap",
+      "box"
+    ],
+    "prediction": [
+      "wrap",
+      "box"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "box",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "wrap+box_e4f5ee8a-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "wrap boxes",
+    "caption_processed": "wrap boxes",
+    "label": [
+      "wrap",
+      "box"
+    ],
+    "prediction": [
+      "wrap",
+      "box"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "boxes",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "strip+tree_e4f5ee95-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "wrap leg",
+    "caption_processed": "wrap leg",
+    "label": [
+      "strip",
+      "tree"
+    ],
+    "prediction": [
+      "wrap",
+      "box"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "wrap",
+    "correct": 0,
+    "glove_dist": 12.424745579571546
+  },
+  "strip+tree_e4f5ee96-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "chop tree",
+    "caption_processed": "chop tree",
+    "label": [
+      "strip",
+      "tree"
+    ],
+    "prediction": [
+      "chop",
+      "tree"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "tree",
+    "correct": 0,
+    "glove_dist": 7.397611170190651
+  },
+  "strip+tree_e4f5ee98-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "chop wood",
+    "caption_processed": "chop wood",
+    "label": [
+      "strip",
+      "tree"
+    ],
+    "prediction": [
+      "chop",
+      "wood"
+    ],
+    "closest2verb": "chop",
+    "closest2noun": "wood",
+    "correct": 0,
+    "glove_dist": 12.837078980633652
+  },
+  "open+box_e4f5ee9e-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "bind book",
+    "caption_processed": "bind book",
+    "label": [
+      "open",
+      "box"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "bind",
+    "closest2noun": "book",
+    "correct": 0,
+    "glove_dist": 11.684204618468794
+  },
+  "open+box_e4f5eea1-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "open box",
+    "caption_processed": "open box",
+    "label": [
+      "open",
+      "box"
+    ],
+    "prediction": [
+      "open",
+      "box"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "box",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "open+box_e4f5eea2-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "open box",
+    "caption_processed": "open box",
+    "label": [
+      "open",
+      "box"
+    ],
+    "prediction": [
+      "open",
+      "box"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "box",
+    "correct": 1,
+    "glove_dist": 0.0
+  },
+  "accuracy": 0.46633416458852867
+}
