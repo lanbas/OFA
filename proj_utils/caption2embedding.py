@@ -12,6 +12,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
 
 csv.field_size_limit(sys.maxsize)
 
@@ -119,31 +120,31 @@ def preprocess_caption(caption):
 
 def main():
     word2embedding = gen_word2glove_dict(100)
-    dataset_file = "ae_one_img_each.tsv"
+    dataset_file = "../dataset/caption_data/all_val.tsv"
     ae_caption_list = json.load(open('ae_list.json', 'r'))
     ae_words = get_ae_words(ae_caption_list)
     ae_gt = get_ae_gt(dataset_file) # {img_id: ['verb', 'noun']}
     ae_embeddings = np.array(ae_words2embeddings(ae_words, word2embedding))
     # pdb.set_trace()
 
-    pred_file = 'pred_for_one.json'
+    pred_file = '../results/caption/test_predict_ckpt1.json'
     pred_list = json.load(open(pred_file, 'r')) # [{image_id: "00", "caption": "predicted caption"}, ...]
 
     correct = 0
     results_dict = {}
     for pred in pred_list:
         pred_caption = pred['caption']
-        pred_caption_proc = preprocess_caption(pred_caption)
-        print(pred_caption_proc)
+        # pred_caption_proc = preprocess_caption(pred_caption)
+        print(pred_caption)
         label = ae_gt[pred['image_id']]
         
-        if len(pred_caption_proc) == 0: # If all stop words
+        if len(pred_caption) == 0: # If all stop words
             pred_nv, closest2verb, closest2noun = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding)
         else: 
-            pred_nv, closest2verb, closest2noun = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding)
+            pred_nv, closest2verb, closest2noun = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding)
 
         results_dict[pred['image_id']] = {"caption": pred_caption,
-                                          "caption_processed": pred_caption_proc,
+                                          "caption_processed": pred_caption,
                                           "label": label,
                                           "prediction": pred_nv,
                                           "closest2verb": closest2verb,

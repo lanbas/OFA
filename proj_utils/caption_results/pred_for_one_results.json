@@ -1,0 +1,2103 @@
+{
+  "chop+onion_a434cdf8-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "this is a photo of the shredded cabbage and onions",
+    "caption_processed": "photo shredded cabbage onion",
+    "label": [
+      "chop",
+      "onion"
+    ],
+    "prediction": [
+      "chop",
+      "onion"
+    ],
+    "closest2verb": "onion",
+    "closest2noun": "onion",
+    "correct": 1
+  },
+  "ignite+wood_a434cdf9-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "burning wood in the forest",
+    "caption_processed": "burn wood forest",
+    "label": [
+      "ignite",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "wood",
+    "correct": 0
+  },
+  "saw+wood_a434cdfa-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "this is the wall of a building in the old city of jerusalem",
+    "caption_processed": "wall building city jerusalem",
+    "label": [
+      "saw",
+      "wood"
+    ],
+    "prediction": [
+      "block",
+      "window"
+    ],
+    "closest2verb": "building",
+    "closest2noun": "wall",
+    "correct": 0
+  },
+  "shave+hair_a434cdfb-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "pop artist arrives at the premiere",
+    "caption_processed": "pop artist arrive premiere",
+    "label": [
+      "shave",
+      "hair"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "arrive",
+    "closest2noun": "artist",
+    "correct": 0
+  },
+  "break+bowl_a434cdfc-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "a hand holding a broken piece of metal",
+    "caption_processed": "hand hold broken piece metal",
+    "label": [
+      "break",
+      "bowl"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "hold",
+    "closest2noun": "hand",
+    "correct": 0
+  },
+  "label+bottle_a434cdfd-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "a bottle of water on a white background",
+    "caption_processed": "bottle water white background",
+    "label": [
+      "label",
+      "bottle"
+    ],
+    "prediction": [
+      "squeeze",
+      "bottle"
+    ],
+    "closest2verb": "bottle",
+    "closest2noun": "bottle",
+    "correct": 0
+  },
+  "trim+tree_a434cdfe-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "a view of the formal gardens",
+    "caption_processed": "view formal garden",
+    "label": [
+      "trim",
+      "tree"
+    ],
+    "prediction": [
+      "saw",
+      "tree"
+    ],
+    "closest2verb": "view",
+    "closest2noun": "garden",
+    "correct": 0
+  },
+  "burn+tree_a434cdff-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "the fire started in the grassy area",
+    "caption_processed": "fire start grassy area",
+    "label": [
+      "burn",
+      "tree"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "start",
+    "closest2noun": "start",
+    "correct": 0
+  },
+  "throw+football_a434ce00-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "soccer ball flying in the air",
+    "caption_processed": "soccer ball fly air",
+    "label": [
+      "throw",
+      "football"
+    ],
+    "prediction": [
+      "kick",
+      "football"
+    ],
+    "closest2verb": "ball",
+    "closest2noun": "soccer",
+    "correct": 0
+  },
+  "split+tree_a434ce01-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "a weeping willow tree in a park",
+    "caption_processed": "weep willow tree park",
+    "label": [
+      "split",
+      "tree"
+    ],
+    "prediction": [
+      "bend",
+      "tree"
+    ],
+    "closest2verb": "willow",
+    "closest2noun": "tree",
+    "correct": 0
+  },
+  "fry+egg_a434ce02-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "what is the difference between hard boiled and soft boiled eggs",
+    "caption_processed": "difference hard boil soft boil egg",
+    "label": [
+      "fry",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 0
+  },
+  "tear+shirt_a434ce03-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "this t shirt is made from 100 cotton and features a ribbed neckline",
+    "caption_processed": "shirt make 100 cotton feature ribbed neckline",
+    "label": [
+      "tear",
+      "shirt"
+    ],
+    "prediction": [
+      "soak",
+      "shirt"
+    ],
+    "closest2verb": "make",
+    "closest2noun": "shirt",
+    "correct": 0
+  },
+  "soak+hair_a434ce04-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "long hair in a ponytail",
+    "caption_processed": "long hair ponytail",
+    "label": [
+      "soak",
+      "hair"
+    ],
+    "prediction": [
+      "shave",
+      "hair"
+    ],
+    "closest2verb": "ponytail",
+    "closest2noun": "hair",
+    "correct": 0
+  },
+  "open+umbrella_a434ce05-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "black umbrella on a white background",
+    "caption_processed": "black umbrella white background",
+    "label": [
+      "open",
+      "umbrella"
+    ],
+    "prediction": [
+      "roll",
+      "umbrella"
+    ],
+    "closest2verb": "background",
+    "closest2noun": "umbrella",
+    "correct": 0
+  },
+  "crack+bottle_a434ce06-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "a discarded plastic water bottle lies on the ground",
+    "caption_processed": "discarded plastic water bottle lie ground",
+    "label": [
+      "crack",
+      "bottle"
+    ],
+    "prediction": [
+      "open",
+      "bottle"
+    ],
+    "closest2verb": "ground",
+    "closest2noun": "bottle",
+    "correct": 0
+  },
+  "coil+rope_a434ce07-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "this rope is made from a single piece of rope",
+    "caption_processed": "rope make single piece rope",
+    "label": [
+      "coil",
+      "rope"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "piece",
+    "closest2noun": "rope",
+    "correct": 0
+  },
+  "scratch+knee_a434ce08-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "the knee of a horse",
+    "caption_processed": "knee horse",
+    "label": [
+      "scratch",
+      "knee"
+    ],
+    "prediction": [
+      "scratch",
+      "knee"
+    ],
+    "closest2verb": "horse",
+    "closest2noun": "knee",
+    "correct": 1
+  },
+  "arrange+chairs_a434ce09-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "set of three vintage chairs from the 1950s",
+    "caption_processed": "set vintage chair 1950s",
+    "label": [
+      "arrange",
+      "chairs"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "set",
+    "closest2noun": "chair",
+    "correct": 0
+  },
+  "peel+potato_a434ce0a-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "potatoes are a good source of potassium",
+    "caption_processed": "potato source potassium",
+    "label": [
+      "peel",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "potato",
+    "closest2noun": "potato",
+    "correct": 0
+  },
+  "slice+onion_a434ce0b-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "cut the red onions into small pieces",
+    "caption_processed": "cut red onion small piece",
+    "label": [
+      "slice",
+      "onion"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "onion",
+    "correct": 0
+  },
+  "park+car_a434ce0c-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "some of the cars on display",
+    "caption_processed": "car display",
+    "label": [
+      "park",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "car",
+    "closest2noun": "car",
+    "correct": 0
+  },
+  "cut+tree_a434ce0d-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "a downed tree in the woods",
+    "caption_processed": "downed tree wood",
+    "label": [
+      "cut",
+      "tree"
+    ],
+    "prediction": [
+      "pile",
+      "wood"
+    ],
+    "closest2verb": "wood",
+    "closest2noun": "wood",
+    "correct": 0
+  },
+  "peel+banana_a434ce0e-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "a half peeled banana isolated on a white background",
+    "caption_processed": "half peeled banana isolate white background",
+    "label": [
+      "peel",
+      "banana"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "half",
+    "closest2noun": "banana",
+    "correct": 0
+  },
+  "stain+paper_a434ce0f-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "old paper texture useful as a background photo",
+    "caption_processed": "paper texture background photo",
+    "label": [
+      "stain",
+      "paper"
+    ],
+    "prediction": [
+      "roll",
+      "paper"
+    ],
+    "closest2verb": "paper",
+    "closest2noun": "paper",
+    "correct": 0
+  },
+  "fry+meat_a434ce10-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "how to cook food in a slow cooker",
+    "caption_processed": "cook food slow cooker",
+    "label": [
+      "fry",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "meat"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "food",
+    "correct": 0
+  },
+  "throw+apple_a434ce11-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "hand throwing a red ball isolated on white background",
+    "caption_processed": "hand throw red ball isolate white background",
+    "label": [
+      "throw",
+      "apple"
+    ],
+    "prediction": [
+      "throw",
+      "baseball"
+    ],
+    "closest2verb": "throw",
+    "closest2noun": "throw",
+    "correct": 0
+  },
+  "burn+wood_a434ce12-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "close up of a burning wood stock image image of",
+    "caption_processed": "close burning wood stock image image",
+    "label": [
+      "burn",
+      "wood"
+    ],
+    "prediction": [
+      "burn",
+      "wood"
+    ],
+    "closest2verb": "burning",
+    "closest2noun": "wood",
+    "correct": 1
+  },
+  "bite+apple_a434ce13-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "i m not sure what kind of apple this is",
+    "caption_processed": "kind apple",
+    "label": [
+      "bite",
+      "apple"
+    ],
+    "prediction": [
+      "throw",
+      "apple"
+    ],
+    "closest2verb": "kind",
+    "closest2noun": "apple",
+    "correct": 0
+  },
+  "throw+baseball_a434ce14-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "close up of a baseball flying through the air",
+    "caption_processed": "close baseball fly air",
+    "label": [
+      "throw",
+      "baseball"
+    ],
+    "prediction": [
+      "pitch",
+      "baseball"
+    ],
+    "closest2verb": "fly",
+    "closest2noun": "baseball",
+    "correct": 0
+  },
+  "beat+eggs_a434ce15-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "how to make food in culinary tool",
+    "caption_processed": "make food culinary tool",
+    "label": [
+      "beat",
+      "eggs"
+    ],
+    "prediction": [
+      "cut",
+      "meat"
+    ],
+    "closest2verb": "make",
+    "closest2noun": "food",
+    "correct": 0
+  },
+  "cut+potato_a434ce16-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "cut the potatoes into small pieces",
+    "caption_processed": "cut potato small piece",
+    "label": [
+      "cut",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "potato",
+    "correct": 1
+  },
+  "peel+orange_a434ce17-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "sliced melon on a white background",
+    "caption_processed": "slice melon white background",
+    "label": [
+      "peel",
+      "orange"
+    ],
+    "prediction": [
+      "slice",
+      "potato"
+    ],
+    "closest2verb": "slice",
+    "closest2noun": "slice",
+    "correct": 0
+  },
+  "saw+tree_a434ce18-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "rock type isolated on a white background",
+    "caption_processed": "rock type isolate white background",
+    "label": [
+      "saw",
+      "tree"
+    ],
+    "prediction": [
+      "roll",
+      "paper"
+    ],
+    "closest2verb": "rock",
+    "closest2noun": "type",
+    "correct": 0
+  },
+  "ignite+paper_a434ce19-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "close up of a burning cigarette",
+    "caption_processed": "close burning cigarette",
+    "label": [
+      "ignite",
+      "paper"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "close",
+    "correct": 0
+  },
+  "smash+window_a434ce1a-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "a close up of a black leather texture",
+    "caption_processed": "close black leather texture",
+    "label": [
+      "smash",
+      "window"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "close",
+    "correct": 0
+  },
+  "fry+potato_a434ce1b-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "potatoes are a great side dish for thanksgiving or christmas dinner",
+    "caption_processed": "potato great side dish thanksgiving christmas dinner",
+    "label": [
+      "fry",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "potato",
+    "closest2noun": "potato",
+    "correct": 1
+  },
+  "fasten+window_a434ce1c-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "the window in the master bedroom",
+    "caption_processed": "window master bedroom",
+    "label": [
+      "fasten",
+      "window"
+    ],
+    "prediction": [
+      "block",
+      "window"
+    ],
+    "closest2verb": "window",
+    "closest2noun": "window",
+    "correct": 0
+  },
+  "squeeze+bottle_a434ce1d-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "a hand holding a blue water bottle",
+    "caption_processed": "hand hold blue water bottle",
+    "label": [
+      "squeeze",
+      "bottle"
+    ],
+    "prediction": [
+      "open",
+      "bottle"
+    ],
+    "closest2verb": "hold",
+    "closest2noun": "bottle",
+    "correct": 0
+  },
+  "carry+bag_a434ce1e-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "how to make a leather wallet",
+    "caption_processed": "make leather wallet",
+    "label": [
+      "carry",
+      "bag"
+    ],
+    "prediction": [
+      "carry",
+      "bag"
+    ],
+    "closest2verb": "make",
+    "closest2noun": "wallet",
+    "correct": 1
+  },
+  "rip+paper_a434ce1f-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "torn paper on a white background vector art illustration",
+    "caption_processed": "torn paper white background vector art illustration",
+    "label": [
+      "rip",
+      "paper"
+    ],
+    "prediction": [
+      "roll",
+      "paper"
+    ],
+    "closest2verb": "paper",
+    "closest2noun": "paper",
+    "correct": 0
+  },
+  "pile+books_a434ce20-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "a stack of books on a white background",
+    "caption_processed": "stack book white background",
+    "label": [
+      "pile",
+      "books"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "stack",
+    "closest2noun": "book",
+    "correct": 0
+  },
+  "split+wood_a434ce21-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "axe in a pile of wood",
+    "caption_processed": "axe pile wood",
+    "label": [
+      "split",
+      "wood"
+    ],
+    "prediction": [
+      "pile",
+      "wood"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "wood",
+    "correct": 0
+  },
+  "scratch+car_a434ce22-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "a car with a drawing on the hood",
+    "caption_processed": "car draw hood",
+    "label": [
+      "scratch",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "car",
+    "closest2noun": "car",
+    "correct": 0
+  },
+  "wrap+book_a434ce23-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "how to make a paper bag book",
+    "caption_processed": "make paper bag book",
+    "label": [
+      "wrap",
+      "book"
+    ],
+    "prediction": [
+      "carry",
+      "bag"
+    ],
+    "closest2verb": "make",
+    "closest2noun": "bag",
+    "correct": 0
+  },
+  "open+drawer_a434ce24-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "i need this for my craft room",
+    "caption_processed": "craft room",
+    "label": [
+      "open",
+      "drawer"
+    ],
+    "prediction": [
+      "block",
+      "door"
+    ],
+    "closest2verb": "room",
+    "closest2noun": "room",
+    "correct": 0
+  },
+  "close+book_a434ce25-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "a book on a round table on a white background",
+    "caption_processed": "book round table white background",
+    "label": [
+      "close",
+      "book"
+    ],
+    "prediction": [
+      "wrap",
+      "book"
+    ],
+    "closest2verb": "table",
+    "closest2noun": "book",
+    "correct": 0
+  },
+  "burst+balloon_a434ce26-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "illustration of a human brain",
+    "caption_processed": "illustration human brain",
+    "label": [
+      "burst",
+      "balloon"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "human",
+    "closest2noun": "illustration",
+    "correct": 0
+  },
+  "squeeze+orange_a434ce27-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "hand squeezing an orange into a glass",
+    "caption_processed": "hand squeeze orange glass",
+    "label": [
+      "squeeze",
+      "orange"
+    ],
+    "prediction": [
+      "squeeze",
+      "orange"
+    ],
+    "closest2verb": "squeeze",
+    "closest2noun": "orange",
+    "correct": 1
+  },
+  "close+cabinet_a434ce28-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "the furniture outlet hampshire grey painted oak corner cupboard",
+    "caption_processed": "furniture outlet hampshire grey paint oak corner cupboard",
+    "label": [
+      "close",
+      "cabinet"
+    ],
+    "prediction": [
+      "stain",
+      "paper"
+    ],
+    "closest2verb": "paint",
+    "closest2noun": "paint",
+    "correct": 0
+  },
+  "break+window_a434ce29-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "broken glass on a blue sky background",
+    "caption_processed": "broken glass blue sky background",
+    "label": [
+      "break",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "glass"
+    ],
+    "closest2verb": "broken",
+    "closest2noun": "glass",
+    "correct": 0
+  },
+  "kick+football_a434ce2a-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "soccer ball on a green and gold background",
+    "caption_processed": "soccer ball green gold background",
+    "label": [
+      "kick",
+      "football"
+    ],
+    "prediction": [
+      "kick",
+      "football"
+    ],
+    "closest2verb": "ball",
+    "closest2noun": "soccer",
+    "correct": 1
+  },
+  "soak+shirt_a434ce2b-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "man washing his hands in the sink stock video",
+    "caption_processed": "wash hand sink stock video",
+    "label": [
+      "soak",
+      "shirt"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "hand",
+    "closest2noun": "hand",
+    "correct": 0
+  },
+  "fasten+door_a434ce2c-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "a cross made of wood and a rusty chain",
+    "caption_processed": "cross make wood rusty chain",
+    "label": [
+      "fasten",
+      "door"
+    ],
+    "prediction": [
+      "cut",
+      "wood"
+    ],
+    "closest2verb": "make",
+    "closest2noun": "wood",
+    "correct": 0
+  },
+  "kick+door_a434ce2d-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "hole in bathroom door",
+    "caption_processed": "hole bathroom",
+    "label": [
+      "kick",
+      "door"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "hole",
+    "closest2noun": "bathroom",
+    "correct": 0
+  },
+  "open+cabinet_a434ce2e-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "how to install a dishwasher in your kitchen",
+    "caption_processed": "install dishwasher kitchen",
+    "label": [
+      "open",
+      "cabinet"
+    ],
+    "prediction": [
+      "block",
+      "window"
+    ],
+    "closest2verb": "install",
+    "closest2noun": "kitchen",
+    "correct": 0
+  },
+  "cut+wood_a434ce2f-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "different types of wood on a white background",
+    "caption_processed": "different type wood white background",
+    "label": [
+      "cut",
+      "wood"
+    ],
+    "prediction": [
+      "split",
+      "wood"
+    ],
+    "closest2verb": "different",
+    "closest2noun": "wood",
+    "correct": 0
+  },
+  "open+window_a434ce30-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "drawing of an open window",
+    "caption_processed": "drawing open window",
+    "label": [
+      "open",
+      "window"
+    ],
+    "prediction": [
+      "open",
+      "window"
+    ],
+    "closest2verb": "open",
+    "closest2noun": "window",
+    "correct": 1
+  },
+  "hang+shirt_a434ce31-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "white t shirt isolated on a white background",
+    "caption_processed": "white shirt isolate white background",
+    "label": [
+      "hang",
+      "shirt"
+    ],
+    "prediction": [
+      "soak",
+      "shirt"
+    ],
+    "closest2verb": "isolate",
+    "closest2noun": "shirt",
+    "correct": 0
+  },
+  "grate+carrot_a434ce32-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "a pile of carrots on a white background",
+    "caption_processed": "pile carrot white background",
+    "label": [
+      "grate",
+      "carrot"
+    ],
+    "prediction": [
+      "pile",
+      "boxes"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "pile",
+    "correct": 0
+  },
+  "stir+coffee_a434ce33-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "a cup of coffee on a white saucer with a spoon",
+    "caption_processed": "cup coffee white saucer spoon",
+    "label": [
+      "stir",
+      "coffee"
+    ],
+    "prediction": [
+      "stir",
+      "coffee"
+    ],
+    "closest2verb": "spoon",
+    "closest2noun": "coffee",
+    "correct": 1
+  },
+  "crash+car_a434ce34-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "a car crashed into a tree",
+    "caption_processed": "car crash tree",
+    "label": [
+      "crash",
+      "car"
+    ],
+    "prediction": [
+      "crash",
+      "car"
+    ],
+    "closest2verb": "crash",
+    "closest2noun": "car",
+    "correct": 1
+  },
+  "mash+potato_a434ce35-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "a bowl of sour cream",
+    "caption_processed": "bowl sour cream",
+    "label": [
+      "mash",
+      "potato"
+    ],
+    "prediction": [
+      "break",
+      "bowl"
+    ],
+    "closest2verb": "sour",
+    "closest2noun": "bowl",
+    "correct": 0
+  },
+  "crop+hair_a434ce36-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "actor attends the fall fashion show during fashion week",
+    "caption_processed": "actor attend fall fashion show fashion week",
+    "label": [
+      "crop",
+      "hair"
+    ],
+    "prediction": [
+      "close",
+      "book"
+    ],
+    "closest2verb": "week",
+    "closest2noun": "show",
+    "correct": 0
+  },
+  "cut+meat_a434ce37-7290-11ed-86fb-7bc5558d1800_24": {
+    "caption": "how to cook the perfect steak",
+    "caption_processed": "cook perfect steak",
+    "label": [
+      "cut",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "cook",
+    "correct": 0
+  },
+  "chop+tree_a434ce38-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "spring flowers in the woods",
+    "caption_processed": "spring flower wood",
+    "label": [
+      "chop",
+      "tree"
+    ],
+    "prediction": [
+      "saw",
+      "wood"
+    ],
+    "closest2verb": "spring",
+    "closest2noun": "wood",
+    "correct": 0
+  },
+  "burst+door_a434ce39-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "i made this for my front door",
+    "caption_processed": "make front",
+    "label": [
+      "burst",
+      "door"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "make",
+    "closest2noun": "front",
+    "correct": 0
+  },
+  "burn+paper_a434ce3a-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "burning paper on a black background stock photo",
+    "caption_processed": "burn paper black background stock photo",
+    "label": [
+      "burn",
+      "paper"
+    ],
+    "prediction": [
+      "burn",
+      "paper"
+    ],
+    "closest2verb": "burn",
+    "closest2noun": "paper",
+    "correct": 1
+  },
+  "lock+door_a434ce3b-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "the front door of the house",
+    "caption_processed": "front house",
+    "label": [
+      "lock",
+      "door"
+    ],
+    "prediction": [
+      "block",
+      "door"
+    ],
+    "closest2verb": "front",
+    "closest2noun": "front",
+    "correct": 0
+  },
+  "throw+frisbee_a434ce3c-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "a frisbee flies through the air",
+    "caption_processed": "frisbee fly air",
+    "label": [
+      "throw",
+      "frisbee"
+    ],
+    "prediction": [
+      "throw",
+      "frisbee"
+    ],
+    "closest2verb": "fly",
+    "closest2noun": "frisbee",
+    "correct": 1
+  },
+  "chop+carrot_a434ce3d-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "cut the carrots into small pieces",
+    "caption_processed": "cut carrot small piece",
+    "label": [
+      "chop",
+      "carrot"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "carrot",
+    "correct": 0
+  },
+  "cook+meat_a434ce3e-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "how to cut a steak in half",
+    "caption_processed": "cut steak half",
+    "label": [
+      "cook",
+      "meat"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "steak",
+    "correct": 0
+  },
+  "boil+potato_a434ce3f-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "potatoes on a plate with thyme",
+    "caption_processed": "potato plate thyme",
+    "label": [
+      "boil",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "potato",
+    "closest2noun": "potato",
+    "correct": 0
+  },
+  "cook+onion_a434ce40-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "how to cook food in a pressure cooker",
+    "caption_processed": "cook food pressure cooker",
+    "label": [
+      "cook",
+      "onion"
+    ],
+    "prediction": [
+      "cook",
+      "meat"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "food",
+    "correct": 0
+  },
+  "grate+potato_a434ce41-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "add the shredded cheese to the bowl",
+    "caption_processed": "add shredded cheese bowl",
+    "label": [
+      "grate",
+      "potato"
+    ],
+    "prediction": [
+      "break",
+      "bowl"
+    ],
+    "closest2verb": "add",
+    "closest2noun": "bowl",
+    "correct": 0
+  },
+  "bend+knee_a434ce42-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "a woman doing a yoga pose",
+    "caption_processed": "woman yoga pose",
+    "label": [
+      "bend",
+      "knee"
+    ],
+    "prediction": [
+      "carry",
+      "umbrella"
+    ],
+    "closest2verb": "pose",
+    "closest2noun": "pose",
+    "correct": 0
+  },
+  "hang+bag_a434ce43-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "i m in love with this bag",
+    "caption_processed": "love bag",
+    "label": [
+      "hang",
+      "bag"
+    ],
+    "prediction": [
+      "carry",
+      "bag"
+    ],
+    "closest2verb": "bag",
+    "closest2noun": "bag",
+    "correct": 0
+  },
+  "close+door_a434ce44-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "a door in a wall",
+    "caption_processed": "wall",
+    "label": [
+      "close",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "wall",
+    "closest2noun": "wall",
+    "correct": 0
+  },
+  "break+door_a434ce45-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "how to paint a door with primer",
+    "caption_processed": "paint",
+    "label": [
+      "break",
+      "door"
+    ],
+    "prediction": [
+      "stain",
+      "paper"
+    ],
+    "closest2verb": "paint",
+    "closest2noun": "paint",
+    "correct": 0
+  },
+  "lock+drawer_a434ce46-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "close up of a metal door knob on a white background",
+    "caption_processed": "close metal knob white background",
+    "label": [
+      "lock",
+      "drawer"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "close",
+    "correct": 0
+  },
+  "knot+rope_a434ce47-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "this rope is made of polypropylene",
+    "caption_processed": "rope make polypropylene",
+    "label": [
+      "knot",
+      "rope"
+    ],
+    "prediction": [
+      "knot",
+      "rope"
+    ],
+    "closest2verb": "rope",
+    "closest2noun": "rope",
+    "correct": 1
+  },
+  "twist+hair_a434ce48-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "the most popular beauty products of 2018",
+    "caption_processed": "popular beauty product 2018",
+    "label": [
+      "twist",
+      "hair"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "product",
+    "closest2noun": "popular",
+    "correct": 0
+  },
+  "chop+meat_a434ce49-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "how to cook a chicken dish",
+    "caption_processed": "cook chicken dish",
+    "label": [
+      "chop",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "meat"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "chicken",
+    "correct": 0
+  },
+  "carry+umbrella_a434ce4a-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "a man in a suit holding a red umbrella",
+    "caption_processed": "suit hold red umbrella",
+    "label": [
+      "carry",
+      "umbrella"
+    ],
+    "prediction": [
+      "carry",
+      "umbrella"
+    ],
+    "closest2verb": "hold",
+    "closest2noun": "umbrella",
+    "correct": 1
+  },
+  "lock+window_a434ce4b-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "bay window in the living room",
+    "caption_processed": "bay window living room",
+    "label": [
+      "lock",
+      "window"
+    ],
+    "prediction": [
+      "block",
+      "window"
+    ],
+    "closest2verb": "window",
+    "closest2noun": "window",
+    "correct": 0
+  },
+  "block+door_a434ce4c-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "a brick wall with a white door",
+    "caption_processed": "brick wall white",
+    "label": [
+      "block",
+      "door"
+    ],
+    "prediction": [
+      "saw",
+      "wood"
+    ],
+    "closest2verb": "wall",
+    "closest2noun": "brick",
+    "correct": 0
+  },
+  "tie+shoe_a434ce4d-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "a pair of black leather ankle boots with laces",
+    "caption_processed": "pair black leather ankle boot lace",
+    "label": [
+      "tie",
+      "shoe"
+    ],
+    "prediction": [
+      "scratch",
+      "knee"
+    ],
+    "closest2verb": "boot",
+    "closest2noun": "ankle",
+    "correct": 0
+  },
+  "tear+book_a434ce4e-7290-11ed-86fb-7bc5558d1800_12": {
+    "caption": "the book of the dead",
+    "caption_processed": "book dead",
+    "label": [
+      "tear",
+      "book"
+    ],
+    "prediction": [
+      "burn",
+      "book"
+    ],
+    "closest2verb": "dead",
+    "closest2noun": "book",
+    "correct": 0
+  },
+  "mix+eggs_a434ce4f-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "add all the ingredients to a bowl",
+    "caption_processed": "add ingredient bowl",
+    "label": [
+      "mix",
+      "eggs"
+    ],
+    "prediction": [
+      "break",
+      "bowl"
+    ],
+    "closest2verb": "add",
+    "closest2noun": "bowl",
+    "correct": 0
+  },
+  "crack+egg_a434ce50-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "how to cook an egg  steps",
+    "caption_processed": "cook egg step",
+    "label": [
+      "crack",
+      "egg"
+    ],
+    "prediction": [
+      "cook",
+      "egg"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "egg",
+    "correct": 0
+  },
+  "break+cup_a434ce51-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "orange and white mugs in the shape of a boat",
+    "caption_processed": "orange white mug shape boat",
+    "label": [
+      "break",
+      "cup"
+    ],
+    "prediction": [
+      "peel",
+      "orange"
+    ],
+    "closest2verb": "orange",
+    "closest2noun": "orange",
+    "correct": 0
+  },
+  "pitch+baseball_a434ce52-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "person delivers a pitch during a game against a city on friday",
+    "caption_processed": "person deliver pitch game city friday",
+    "label": [
+      "pitch",
+      "baseball"
+    ],
+    "prediction": [
+      "pitch",
+      "baseball"
+    ],
+    "closest2verb": "pitch",
+    "closest2noun": "game",
+    "correct": 1
+  },
+  "burn+book_a434ce53-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "how to make a fire in venture funded company",
+    "caption_processed": "make fire venture fund company",
+    "label": [
+      "burn",
+      "book"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "make",
+    "closest2noun": "make",
+    "correct": 0
+  },
+  "open+door_a434ce54-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "a door in the wall of an abandoned building",
+    "caption_processed": "wall abandon building",
+    "label": [
+      "open",
+      "door"
+    ],
+    "prediction": [
+      "block",
+      "window"
+    ],
+    "closest2verb": "building",
+    "closest2noun": "wall",
+    "correct": 0
+  },
+  "cook+potato_a434ce55-7290-11ed-86fb-7bc5558d1800_3": {
+    "caption": "close up of french fries on a plate",
+    "caption_processed": "close french fry plate",
+    "label": [
+      "cook",
+      "potato"
+    ],
+    "prediction": [
+      "fry",
+      "potato"
+    ],
+    "closest2verb": "fry",
+    "closest2noun": "fry",
+    "correct": 0
+  },
+  "twist+rope_a434ce56-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "this is a vase",
+    "caption_processed": "",
+    "label": [
+      "twist",
+      "rope"
+    ],
+    "prediction": [
+      "close",
+      "book"
+    ],
+    "closest2verb": "this",
+    "closest2noun": "this",
+    "correct": 0
+  },
+  "open+bottle_a434ce57-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "a green glass dropper bottle on a white background",
+    "caption_processed": "green glass dropper bottle white background",
+    "label": [
+      "open",
+      "bottle"
+    ],
+    "prediction": [
+      "open",
+      "bottle"
+    ],
+    "closest2verb": "green",
+    "closest2noun": "bottle",
+    "correct": 1
+  },
+  "slice+potato_a434ce58-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "how to cut an eggplant in half",
+    "caption_processed": "cut eggplant half",
+    "label": [
+      "slice",
+      "potato"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "eggplant",
+    "correct": 0
+  },
+  "break+egg_a434ce59-7290-11ed-86fb-7bc5558d1800_11": {
+    "caption": "broken egg on a white background",
+    "caption_processed": "break egg white background",
+    "label": [
+      "break",
+      "egg"
+    ],
+    "prediction": [
+      "break",
+      "egg"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "egg",
+    "correct": 1
+  },
+  "peel+apple_a434ce5a-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "a close up of a bunch of apples",
+    "caption_processed": "close bunch apple",
+    "label": [
+      "peel",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "apple",
+    "correct": 0
+  },
+  "stir+soup_a434ce5b-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "roasted butternut squash soup in a white bowl",
+    "caption_processed": "roast butternut squash soup white bowl",
+    "label": [
+      "stir",
+      "soup"
+    ],
+    "prediction": [
+      "stir",
+      "soup"
+    ],
+    "closest2verb": "soup",
+    "closest2noun": "soup",
+    "correct": 1
+  },
+  "close+drawer_a434ce5c-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "how to paint a dresser with chalk paint",
+    "caption_processed": "paint dresser chalk paint",
+    "label": [
+      "close",
+      "drawer"
+    ],
+    "prediction": [
+      "stain",
+      "paper"
+    ],
+    "closest2verb": "paint",
+    "closest2noun": "paint",
+    "correct": 0
+  },
+  "close+window_a434ce5d-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "the view from my bedroom window",
+    "caption_processed": "view bedroom window",
+    "label": [
+      "close",
+      "window"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "view",
+    "closest2noun": "window",
+    "correct": 1
+  },
+  "shut+window_a434ce5e-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "the view from the window",
+    "caption_processed": "view window",
+    "label": [
+      "shut",
+      "window"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "view",
+    "closest2noun": "window",
+    "correct": 0
+  },
+  "trim+hair_a434ce5f-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "how to grow a full beard with a beard straightener",
+    "caption_processed": "grow full beard beard straightener",
+    "label": [
+      "trim",
+      "hair"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "full",
+    "closest2noun": "full",
+    "correct": 0
+  },
+  "bake+potato_a434ce60-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "food is a staple of cuisine",
+    "caption_processed": "food staple cuisine",
+    "label": [
+      "bake",
+      "potato"
+    ],
+    "prediction": [
+      "grind",
+      "meat"
+    ],
+    "closest2verb": "staple",
+    "closest2noun": "food",
+    "correct": 0
+  },
+  "cut+onion_a434ce61-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "cut the onions into small pieces",
+    "caption_processed": "cut onion small piece",
+    "label": [
+      "cut",
+      "onion"
+    ],
+    "prediction": [
+      "cut",
+      "onion"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "onion",
+    "correct": 1
+  },
+  "tear+paper_a434ce62-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "white paper on a white background",
+    "caption_processed": "white paper white background",
+    "label": [
+      "tear",
+      "paper"
+    ],
+    "prediction": [
+      "roll",
+      "paper"
+    ],
+    "closest2verb": "paper",
+    "closest2noun": "paper",
+    "correct": 0
+  },
+  "boil+egg_a434ce63-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "hard boiled eggs in a bowl",
+    "caption_processed": "hard boil egg bowl",
+    "label": [
+      "boil",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 1
+  },
+  "spill+coffee_a434ce64-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "a bottle of honey isolated on a white background",
+    "caption_processed": "bottle honey isolate white background",
+    "label": [
+      "spill",
+      "coffee"
+    ],
+    "prediction": [
+      "squeeze",
+      "bottle"
+    ],
+    "closest2verb": "isolate",
+    "closest2noun": "bottle",
+    "correct": 0
+  },
+  "block+window_a434ce65-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "green shutters on a red brick wall",
+    "caption_processed": "green shutter red brick wall",
+    "label": [
+      "block",
+      "window"
+    ],
+    "prediction": [
+      "saw",
+      "wood"
+    ],
+    "closest2verb": "wall",
+    "closest2noun": "brick",
+    "correct": 0
+  },
+  "bind+hair_a434ce66-7290-11ed-86fb-7bc5558d1800_16": {
+    "caption": "how to style your hair with a scarf",
+    "caption_processed": "style hair scarf",
+    "label": [
+      "bind",
+      "hair"
+    ],
+    "prediction": [
+      "twist",
+      "hair"
+    ],
+    "closest2verb": "style",
+    "closest2noun": "hair",
+    "correct": 0
+  },
+  "pile+boxes_a434ce67-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "stack of cardboard boxes on a white background",
+    "caption_processed": "stack cardboard box white background",
+    "label": [
+      "pile",
+      "boxes"
+    ],
+    "prediction": [
+      "label",
+      "box"
+    ],
+    "closest2verb": "box",
+    "closest2noun": "box",
+    "correct": 0
+  },
+  "crack+window_a434ce68-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "broken window of an abandoned building",
+    "caption_processed": "break window abandon building",
+    "label": [
+      "crack",
+      "window"
+    ],
+    "prediction": [
+      "break",
+      "window"
+    ],
+    "closest2verb": "break",
+    "closest2noun": "window",
+    "correct": 0
+  },
+  "label+box_a434ce69-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "a label on a box of cigarettes",
+    "caption_processed": "label box cigarette",
+    "label": [
+      "label",
+      "box"
+    ],
+    "prediction": [
+      "label",
+      "box"
+    ],
+    "closest2verb": "label",
+    "closest2noun": "box",
+    "correct": 1
+  },
+  "arrange+flowers_a434ce6a-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "a bouquet of pink carnations and babys breath",
+    "caption_processed": "bouquet pink carnation baby breath",
+    "label": [
+      "arrange",
+      "flowers"
+    ],
+    "prediction": [
+      "squeeze",
+      "orange"
+    ],
+    "closest2verb": "breath",
+    "closest2noun": "pink",
+    "correct": 0
+  },
+  "break+glass_a434ce6b-7290-11ed-86fb-7bc5558d1800_18": {
+    "caption": "close up of a broken glass window",
+    "caption_processed": "close broken glass window",
+    "label": [
+      "break",
+      "glass"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "window",
+    "correct": 0
+  },
+  "cook+egg_a434ce6c-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "hard boiled eggs on a plate",
+    "caption_processed": "hard boil egg plate",
+    "label": [
+      "cook",
+      "egg"
+    ],
+    "prediction": [
+      "boil",
+      "egg"
+    ],
+    "closest2verb": "boil",
+    "closest2noun": "egg",
+    "correct": 0
+  },
+  "fold+paper_a434ce6d-7290-11ed-86fb-7bc5558d1800_0": {
+    "caption": "how to make an envelope out of wrapping paper",
+    "caption_processed": "make envelope wrap paper",
+    "label": [
+      "fold",
+      "paper"
+    ],
+    "prediction": [
+      "fold",
+      "paper"
+    ],
+    "closest2verb": "wrap",
+    "closest2noun": "paper",
+    "correct": 1
+  },
+  "roll+paper_a434ce6e-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "close up of a person s hand writing on a piece of paper",
+    "caption_processed": "close person hand write piece paper",
+    "label": [
+      "roll",
+      "paper"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "hand",
+    "correct": 0
+  },
+  "cut+apple_a434ce6f-7290-11ed-86fb-7bc5558d1800_19": {
+    "caption": "a half of a ripe persimmon on a white background",
+    "caption_processed": "half ripe persimmon white background",
+    "label": [
+      "cut",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "potato"
+    ],
+    "closest2verb": "half",
+    "closest2noun": "ripe",
+    "correct": 0
+  },
+  "smash+door_a434ce70-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "a door in the wall of the castle",
+    "caption_processed": "wall castle",
+    "label": [
+      "smash",
+      "door"
+    ],
+    "prediction": [
+      "close",
+      "window"
+    ],
+    "closest2verb": "wall",
+    "closest2noun": "wall",
+    "correct": 0
+  },
+  "pile+wood_a434ce71-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "a pile of chopped wood",
+    "caption_processed": "pile chopped wood",
+    "label": [
+      "pile",
+      "wood"
+    ],
+    "prediction": [
+      "pile",
+      "wood"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "wood",
+    "correct": 1
+  },
+  "lock+cabinet_a434ce72-7290-11ed-86fb-7bc5558d1800_7": {
+    "caption": "i m in love with this box",
+    "caption_processed": "love box",
+    "label": [
+      "lock",
+      "cabinet"
+    ],
+    "prediction": [
+      "label",
+      "box"
+    ],
+    "closest2verb": "box",
+    "closest2noun": "box",
+    "correct": 0
+  },
+  "stain+shirt_a434ce73-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "a close up of a white t shirt",
+    "caption_processed": "close white shirt",
+    "label": [
+      "stain",
+      "shirt"
+    ],
+    "prediction": [
+      "close",
+      "door"
+    ],
+    "closest2verb": "close",
+    "closest2noun": "close",
+    "correct": 0
+  },
+  "crack+glass_a434ce74-7290-11ed-86fb-7bc5558d1800_13": {
+    "caption": "fireworks light up the night sky",
+    "caption_processed": "firework light night sky",
+    "label": [
+      "crack",
+      "glass"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "night",
+    "closest2noun": "night",
+    "correct": 0
+  },
+  "slice+apple_a434ce75-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "cut the apple in half",
+    "caption_processed": "cut apple half",
+    "label": [
+      "slice",
+      "apple"
+    ],
+    "prediction": [
+      "cut",
+      "apple"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "apple",
+    "correct": 0
+  },
+  "grind+meat_a434ce76-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "a picture of a loaf of bread in a loaf pan",
+    "caption_processed": "picture loaf bread loaf pan",
+    "label": [
+      "grind",
+      "meat"
+    ],
+    "prediction": [
+      "slice",
+      "potato"
+    ],
+    "closest2verb": "loaf",
+    "closest2noun": "bread",
+    "correct": 0
+  },
+  "carry+book_a434ce77-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "man s hand holding a stack of books",
+    "caption_processed": "hand hold stack book",
+    "label": [
+      "carry",
+      "book"
+    ],
+    "prediction": [
+      "carry",
+      "book"
+    ],
+    "closest2verb": "hold",
+    "closest2noun": "book",
+    "correct": 1
+  },
+  "ride+bicycle_a434ce78-7290-11ed-86fb-7bc5558d1800_17": {
+    "caption": "a man riding a bike on a bridge",
+    "caption_processed": "rid bike bridge",
+    "label": [
+      "ride",
+      "bicycle"
+    ],
+    "prediction": [
+      "ride",
+      "bicycle"
+    ],
+    "closest2verb": "bike",
+    "closest2noun": "bike",
+    "correct": 1
+  },
+  "bend+tree_a434ce79-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "an old oak tree in a field",
+    "caption_processed": "oak tree field",
+    "label": [
+      "bend",
+      "tree"
+    ],
+    "prediction": [
+      "saw",
+      "tree"
+    ],
+    "closest2verb": "field",
+    "closest2noun": "tree",
+    "correct": 0
+  },
+  "skin+knee_a434ce7a-7290-11ed-86fb-7bc5558d1800_14": {
+    "caption": "swelling on the legs stock photo image 48901984",
+    "caption_processed": "swell legs stock photo image 48901984",
+    "label": [
+      "skin",
+      "knee"
+    ],
+    "prediction": [
+      "rip",
+      "paper"
+    ],
+    "closest2verb": "swell",
+    "closest2noun": "photo",
+    "correct": 0
+  },
+  "slice+meat_a434ce7b-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "how to cook a steak in the oven",
+    "caption_processed": "cook steak oven",
+    "label": [
+      "slice",
+      "meat"
+    ],
+    "prediction": [
+      "cook",
+      "potato"
+    ],
+    "closest2verb": "cook",
+    "closest2noun": "cook",
+    "correct": 0
+  },
+  "peel+carrot_a434ce7c-7290-11ed-86fb-7bc5558d1800_1": {
+    "caption": "a bunch of cinnamon sticks on a white background",
+    "caption_processed": "bunch cinnamon stick white background",
+    "label": [
+      "peel",
+      "carrot"
+    ],
+    "prediction": [
+      "twist",
+      "rope"
+    ],
+    "closest2verb": "stick",
+    "closest2noun": "stick",
+    "correct": 0
+  },
+  "chop+wood_a434ce7d-7290-11ed-86fb-7bc5558d1800_5": {
+    "caption": "a pile of tree trunks",
+    "caption_processed": "pile tree trunk",
+    "label": [
+      "chop",
+      "wood"
+    ],
+    "prediction": [
+      "pile",
+      "boxes"
+    ],
+    "closest2verb": "pile",
+    "closest2noun": "pile",
+    "correct": 0
+  },
+  "roll+umbrella_a434ce7e-7290-11ed-86fb-7bc5558d1800_6": {
+    "caption": "black umbrella with a wooden handle",
+    "caption_processed": "black umbrella wooden handle",
+    "label": [
+      "roll",
+      "umbrella"
+    ],
+    "prediction": [
+      "carry",
+      "umbrella"
+    ],
+    "closest2verb": "handle",
+    "closest2noun": "umbrella",
+    "correct": 0
+  },
+  "insert+key_a434ce7f-7290-11ed-86fb-7bc5558d1800_2": {
+    "caption": "a key in a lock",
+    "caption_processed": "key lock",
+    "label": [
+      "insert",
+      "key"
+    ],
+    "prediction": [
+      "lock",
+      "door"
+    ],
+    "closest2verb": "lock",
+    "closest2noun": "lock",
+    "correct": 0
+  },
+  "shut+door_a434ce80-7290-11ed-86fb-7bc5558d1800_8": {
+    "caption": "this is the door to the house in which i stayed",
+    "caption_processed": "house stay",
+    "label": [
+      "shut",
+      "door"
+    ],
+    "prediction": [
+      "break",
+      "door"
+    ],
+    "closest2verb": "stay",
+    "closest2noun": "house",
+    "correct": 0
+  },
+  "wrap+box_a434ce81-7290-11ed-86fb-7bc5558d1800_4": {
+    "caption": "this is a product image of corsair hydro series h2o liquid soap",
+    "caption_processed": "product image corsair hydro series h2o liquid soap",
+    "label": [
+      "wrap",
+      "box"
+    ],
+    "prediction": [
+      "stain",
+      "paper"
+    ],
+    "closest2verb": "image",
+    "closest2noun": "product",
+    "correct": 0
+  },
+  "strip+tree_a434ce82-7290-11ed-86fb-7bc5558d1800_9": {
+    "caption": "person cuts a log in the woods",
+    "caption_processed": "person cut wood",
+    "label": [
+      "strip",
+      "tree"
+    ],
+    "prediction": [
+      "cut",
+      "wood"
+    ],
+    "closest2verb": "cut",
+    "closest2noun": "wood",
+    "correct": 0
+  },
+  "open+box_a434ce83-7290-11ed-86fb-7bc5558d1800_10": {
+    "caption": "cardboard box isolated on a white background",
+    "caption_processed": "cardboard box isolate white background",
+    "label": [
+      "open",
+      "box"
+    ],
+    "prediction": [
+      "label",
+      "box"
+    ],
+    "closest2verb": "box",
+    "closest2noun": "box",
+    "correct": 0
+  },
+  "accuracy": 0.19285714285714287
+}

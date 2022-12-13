@@ -40,7 +40,7 @@ def write_all_images_per_task(a_e, args, csv_writer):
 
     for i, image_fname in enumerate(os.listdir(os.path.join(args.dataset_root, a_e, 'positive'))): 
         uniq_id = a_e + "_" + str(uuid.uuid1())
-        img_id = uniq_id + "_" + str(i)
+        img_id = a_e + "_" + image_fname
         img = Image.open(os.path.join(args.dataset_root, a_e, 'positive', image_fname))
         img64 = img2base64(img)
 
