@@ -64,6 +64,7 @@ def predict_label(caption, ae_embeddings, ae_words, word2embedding):
     min_score = 1000000000
     best_idx = -1
     closest2a, closest2e = None, None
+    scores = []
     for i, (a, e) in enumerate(ae_embeddings): # a = (100,) e = (100,)
         dist2a = np.sum((caption_embeddings - a)**2, axis=1) # (N,)
         min2a_idx = np.argmin(dist2a) # 1xN
@@ -74,13 +75,17 @@ def predict_label(caption, ae_embeddings, ae_words, word2embedding):
         min2e_dist = dist2e[min2e_idx]
 
         score = (min2a_dist + min2e_dist) / 2
+        scores.append(score)
         if score < min_score:
             closest2a = caption_words[min2a_idx]
             closest2e = caption_words[min2e_idx]
             min_score = score
             best_idx = i
     
-    return ae_words[best_idx], closest2a, closest2e
+    pdb.set_trace()
+    top_5 = ae_words[np.argsort(scores)[:5]]
+    
+    return ae_words[best_idx], top_5, closest2a, closest2e
 
 def get_ae_words(ae_gt):
     ae_words = []
@@ -127,10 +132,11 @@ def main():
     ae_embeddings = np.array(ae_words2embeddings(ae_words, word2embedding))
     # pdb.set_trace()
 
-    pred_file = '../results/caption/test_predict_ckpt1.json'
+    pred_file = '../results/caption/pred_for_all_results.json'
     pred_list = json.load(open(pred_file, 'r')) # [{image_id: "00", "caption": "predicted caption"}, ...]
 
     correct = 0
+    top5_correct = 0
     results_dict = {}
     for pred in pred_list:
         pred_caption = pred['caption']
@@ -139,9 +145,9 @@ def main():
         label = ae_gt[pred['image_id']]
         
         if len(pred_caption_proc) == 0: # If all stop words
-            pred_nv, closest2verb, closest2noun = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding)
+            pred_nv, top5_nv, closest2verb, closest2noun = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding)
         else: 
-            pred_nv, closest2verb, closest2noun = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding)
+            pred_nv, top5_nv, closest2verb, closest2noun = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding)
 
         results_dict[pred['image_id']] = {"caption": pred_caption,
                                           "caption_processed": pred_caption_proc,
@@ -154,12 +160,17 @@ def main():
         if label == pred_nv:
             correct += 1
 
+        if label in top5_nv:
+            top5_correct += 1
+
     results_dict['accuracy'] = correct / len(pred_list)
+    results_dict['top5_accuracy'] = top5_correct / len(pred_list)
 
     with open(pred_file.replace(".json", "_results.json"), 'w') as out_ptr:
         json.dump(results_dict, out_ptr, indent=2)
 
-    print(f"ACCURACY = {correct / len(pred_list)}")
+    print(f"ACCURACY = {results_dict['accuracy']}")
+    print(f"TOP 5 ACCURACY = {results_dict['top5_accuracy']}")
 
 main()
 
