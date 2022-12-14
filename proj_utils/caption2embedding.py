@@ -89,7 +89,7 @@ def predict_label(caption, ae_embeddings, ae_words, word2embedding, label_idx):
         score_diff_to_correct = scores[label_idx] - scores[best_idx]
     top_5 = np.array(ae_words)[np.argsort(scores)[:5]]
     
-    return ae_words[best_idx], top_5, closest2a, closest2e, score_diff_to_correct
+    return ae_words[best_idx], top_5, closest2a, closest2e, score_diff_to_correct, min_score
 
 def get_ae_words(ae_gt):
     ae_words = []
@@ -143,6 +143,7 @@ def main():
     top5_correct = 0
     results_dict = {}
     score_diffs = []
+    match_scores = []
     for pred in pred_list:
         pred_caption = pred['caption']
         pred_caption_proc = preprocess_caption(pred_caption)
@@ -152,9 +153,9 @@ def main():
         label_idx = ae_words.index(label)
         
         if len(pred_caption_proc) == 0: # If all stop words
-            pred_nv, top5_nv, closest2verb, closest2noun, score_diff = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding, label_idx)
+            pred_nv, top5_nv, closest2verb, closest2noun, score_diff, min_score = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding, label_idx)
         else: 
-            pred_nv, top5_nv, closest2verb, closest2noun, score_diff = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding, label_idx)
+            pred_nv, top5_nv, closest2verb, closest2noun, score_diff, min_score = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding, label_idx)
 
         results_dict[pred['image_id']] = {"caption": pred_caption,
                                           "caption_processed": pred_caption_proc,
@@ -165,6 +166,7 @@ def main():
                                           "correct": int(label == pred_nv),
                                           "top5_correct": int(label in top5_nv)}
 
+        match_scores.append(min_score)
         if score_diff != 0:
             score_diffs.append(score_diff)
 
@@ -177,6 +179,7 @@ def main():
     results_dict['accuracy'] = correct / len(pred_list)
     results_dict['top5_accuracy'] = top5_correct / len(pred_list)
     results_dict['score_diff_for_incorrect'] = np.mean(score_diffs)
+    results_dict['avg_dist_to_match'] = np.mean(match_scores)
 
     with open(pred_file.replace(".json", "_results.json"), 'w') as out_ptr:
         json.dump(results_dict, out_ptr, indent=2)
@@ -184,6 +187,7 @@ def main():
     print(f"ACCURACY = {results_dict['accuracy']}")
     print(f"TOP 5 ACCURACY = {results_dict['top5_accuracy']}")
     print(f"SCORE DIFF FOR INCORRECT = {results_dict['score_diff_for_incorrect']}")
+    print(f"SCORE DIFF FOR INCORRECT = {results_dict['avg_dist_to_match']}")
 
 main()
 
