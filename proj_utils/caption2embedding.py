@@ -47,7 +47,7 @@ def gen_word2glove_dict(embedding_dim):
 
     return word2embedding
 
-def predict_label(caption, ae_embeddings, ae_words, word2embedding):
+def predict_label(caption, ae_embeddings, ae_words, word2embedding, label_idx):
     # preprocess caption
 
     # Convert caption words to embeddings
@@ -83,9 +83,13 @@ def predict_label(caption, ae_embeddings, ae_words, word2embedding):
             best_idx = i
     
     # pdb.set_trace()
+    if best_idx == label_idx:
+        score_diff_to_correct = 0
+    else:
+        score_diff_to_correct = scores[label_idx] - scores[best_idx]
     top_5 = np.array(ae_words)[np.argsort(scores)[:5]]
     
-    return ae_words[best_idx], top_5, closest2a, closest2e
+    return ae_words[best_idx], top_5, closest2a, closest2e, score_diff_to_correct
 
 def get_ae_words(ae_gt):
     ae_words = []
@@ -138,16 +142,19 @@ def main():
     correct = 0
     top5_correct = 0
     results_dict = {}
+    score_diffs = []
     for pred in pred_list:
         pred_caption = pred['caption']
         pred_caption_proc = preprocess_caption(pred_caption)
         print(pred_caption_proc)
+        # pdb.set_trace()
         label = ae_gt[pred['image_id']]
+        label_idx = ae_words.index(label)
         
         if len(pred_caption_proc) == 0: # If all stop words
-            pred_nv, top5_nv, closest2verb, closest2noun = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding)
+            pred_nv, top5_nv, closest2verb, closest2noun, score_diff = predict_label(pred_caption, ae_embeddings, ae_words, word2embedding, label_idx)
         else: 
-            pred_nv, top5_nv, closest2verb, closest2noun = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding)
+            pred_nv, top5_nv, closest2verb, closest2noun, score_diff = predict_label(pred_caption_proc, ae_embeddings, ae_words, word2embedding, label_idx)
 
         results_dict[pred['image_id']] = {"caption": pred_caption,
                                           "caption_processed": pred_caption_proc,
@@ -158,6 +165,9 @@ def main():
                                           "correct": int(label == pred_nv),
                                           "top5_correct": int(label in top5_nv)}
 
+        if score_diff != 0:
+            score_diffs.append(score_diff)
+
         if label == pred_nv:
             correct += 1
 
@@ -166,12 +176,14 @@ def main():
 
     results_dict['accuracy'] = correct / len(pred_list)
     results_dict['top5_accuracy'] = top5_correct / len(pred_list)
+    results_dict['score_diff_for_incorrect'] = np.mean(score_diffs)
 
     with open(pred_file.replace(".json", "_results.json"), 'w') as out_ptr:
         json.dump(results_dict, out_ptr, indent=2)
 
     print(f"ACCURACY = {results_dict['accuracy']}")
     print(f"TOP 5 ACCURACY = {results_dict['top5_accuracy']}")
+    print(f"SCORE DIFF FOR INCORRECT = {results_dict['score_diff_for_incorrect']}")
 
 main()
 
