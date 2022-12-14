@@ -43,7 +43,7 @@ def metric_compute_correct_nouns(results):
     verb_correct = 0
 
     for result_id in results:
-        if result_id == "accuracy":
+        if isinstance(results[result], float):
             continue
 
         result = results[result_id]
@@ -61,7 +61,7 @@ def metric_compute_nouns_present(results):
     verb_present = 0
 
     for result_id in results:
-        if result_id == "accuracy":
+        if isinstance(results[result], float):
             continue
 
         result = results[result_id]
@@ -82,7 +82,7 @@ def formulate_results_as_classification(results):
     # One pass to generate class numbers
     class_num = 0
     for result in results:
-        if result == "accuracy":
+        if isinstance(results[result], float):
             continue
 
         verbnoun = "".join(results[result]['label'])
@@ -94,7 +94,7 @@ def formulate_results_as_classification(results):
     y_true, y_pred = [], []
     # One pass to generate y_true, y_pred 
     for result in results:
-        if result == "accuracy":
+        isinstance(results[result], float):
             continue
 
         verbnoun_label = "".join(results[result]['label'])
