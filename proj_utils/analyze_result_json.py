@@ -86,15 +86,21 @@ def formulate_results_as_classification(results):
             continue
 
         verbnoun = "".join(results[result]['label'])
+        verbnoun2 = "".join(results[result]['prediction'])
         if verbnoun not in class_dict:
             class_dict[verbnoun] = class_num
             class_list.append(verbnoun)
+            class_num += 1
+        # case where verbnoun label was not present in val, but it predicted it e.g. soak hair only present in train, then val predicts incorrectly
+        if verbnoun2 not in class_dict:
+            class_dict[verbnoun2] = class_num
+            class_list.append(verbnoun2)
             class_num += 1
 
     y_true, y_pred = [], []
     # One pass to generate y_true, y_pred 
     for result in results:
-        isinstance(results[result], float):
+        if isinstance(results[result], float):
             continue
 
         verbnoun_label = "".join(results[result]['label'])
@@ -133,8 +139,8 @@ def main(args):
     with open(args.result_json, 'r') as json_in:
         results = json.load(json_in)
 
-    metric_compute_nouns_present(results)
-    metric_compute_correct_nouns(results)
+    # metric_compute_nouns_present(results)
+    # metric_compute_correct_nouns(results)
     map = metric_calculate_pr(results, mode='precision')
     mar = metric_calculate_pr(results, mode='recall')
     print("mAP", map)
