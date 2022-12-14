@@ -82,8 +82,8 @@ def predict_label(caption, ae_embeddings, ae_words, word2embedding):
             min_score = score
             best_idx = i
     
-    pdb.set_trace()
-    top_5 = ae_words[np.argsort(scores)[:5]]
+    # pdb.set_trace()
+    top_5 = np.array(ae_words)[np.argsort(scores)[:5]]
     
     return ae_words[best_idx], top_5, closest2a, closest2e
 
@@ -125,14 +125,14 @@ def preprocess_caption(caption):
 
 def main():
     word2embedding = gen_word2glove_dict(100)
-    dataset_file = "../dataset/caption_data/all_val.tsv"
+    dataset_file = "../dataset/caption_data/dataset1_full_val.tsv"
     ae_caption_list = json.load(open('ae_list.json', 'r'))
     ae_words = get_ae_words(ae_caption_list)
     ae_gt = get_ae_gt(dataset_file) # {img_id: ['verb', 'noun']}
     ae_embeddings = np.array(ae_words2embeddings(ae_words, word2embedding))
     # pdb.set_trace()
 
-    pred_file = '../results/caption/pred_for_all_results.json'
+    pred_file = '../results/caption/baseline_1.json'
     pred_list = json.load(open(pred_file, 'r')) # [{image_id: "00", "caption": "predicted caption"}, ...]
 
     correct = 0
@@ -141,7 +141,7 @@ def main():
     for pred in pred_list:
         pred_caption = pred['caption']
         pred_caption_proc = preprocess_caption(pred_caption)
-        print(pred_caption)
+        print(pred_caption_proc)
         label = ae_gt[pred['image_id']]
         
         if len(pred_caption_proc) == 0: # If all stop words
@@ -155,7 +155,8 @@ def main():
                                           "prediction": pred_nv,
                                           "closest2verb": closest2verb,
                                           "closest2noun": closest2noun,
-                                          "correct": int(label == pred_nv)}
+                                          "correct": int(label == pred_nv),
+                                          "top5_correct": int(label in top5_nv)}
 
         if label == pred_nv:
             correct += 1
